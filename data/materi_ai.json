@@ -1,0 +1,206 @@
+[
+  {
+    "pertanyaan": "apa itu ai",
+    "jawaban": "AI atau kecerdasan buatan adalah sistem yang dirancang untuk meniru, meningkatkan, atau melampaui sebagian kemampuan manusia dalam memproses informasi dan menyelesaikan tugas."
+  },
+  {
+    "pertanyaan": "pengertian ai",
+    "jawaban": "AI adalah kecerdasan buatan yang memungkinkan sistem melakukan tugas seperti mengenali pola, menganalisis data, membuat prediksi, dan memberi rekomendasi."
+  },
+  {
+    "pertanyaan": "definisi ai",
+    "jawaban": "AI didefinisikan sebagai teknologi yang memungkinkan mesin meniru kemampuan kognitif manusia dalam konteks tertentu."
+  },
+  {
+    "pertanyaan": "apa tujuan ai",
+    "jawaban": "Tujuan AI adalah membantu manusia bekerja lebih efisien, lebih cepat, dan lebih akurat melalui otomasi, analisis, dan pengambilan keputusan berbasis data."
+  },
+  {
+    "pertanyaan": "bagaimana ai dikategorikan",
+    "jawaban": "AI dapat dikategorikan berdasarkan fungsi dan kemampuannya, misalnya AI deskriptif, prediktif, preskriptif, generatif, reaktif, limited memory, narrow AI, dan general AI."
+  },
+  {
+    "pertanyaan": "apa itu ai deskriptif",
+    "jawaban": "AI deskriptif adalah AI yang menganalisis data historis untuk menjelaskan apa yang telah terjadi dan mengapa hal itu terjadi."
+  },
+  {
+    "pertanyaan": "apa itu ai diagnostik",
+    "jawaban": "AI diagnostik adalah AI yang digunakan untuk menilai dan menganalisis penyebab suatu kejadian berdasarkan data masa lalu."
+  },
+  {
+    "pertanyaan": "fungsi ai deskriptif",
+    "jawaban": "Fungsi AI deskriptif adalah mengenali pola, tren, perbandingan, dan akar penyebab dari data historis."
+  },
+  {
+    "pertanyaan": "kemampuan ai deskriptif",
+    "jawaban": "Kemampuan AI deskriptif meliputi perencanaan skenario, pengenalan pola dan tren, analisis perbandingan, serta analisis akar penyebab."
+  },
+  {
+    "pertanyaan": "contoh ai deskriptif",
+    "jawaban": "Contoh AI deskriptif adalah analisis laporan penjualan masa lalu untuk mengetahui pola kenaikan, penurunan, dan penyebab perubahan."
+  },
+  {
+    "pertanyaan": "apa itu ai prediktif",
+    "jawaban": "AI prediktif adalah AI yang digunakan untuk memperkirakan hasil atau kejadian di masa depan berdasarkan data historis dan data saat ini."
+  },
+  {
+    "pertanyaan": "fungsi ai prediktif",
+    "jawaban": "Fungsi AI prediktif adalah membantu memproyeksikan tren, kejadian, atau perilaku yang mungkin terjadi di masa mendatang."
+  },
+  {
+    "pertanyaan": "kemampuan ai prediktif",
+    "jawaban": "Kemampuan AI prediktif mencakup forecasting, clustering, classification, propensity model, dan decision tree."
+  },
+  {
+    "pertanyaan": "contoh ai prediktif",
+    "jawaban": "Contoh AI prediktif adalah prediksi cuaca, prediksi penjualan, prediksi risiko kredit, dan prediksi perilaku pelanggan."
+  },
+  {
+    "pertanyaan": "apa itu forecasting",
+    "jawaban": "Forecasting adalah proses memperkirakan kejadian atau nilai di masa depan dengan menggunakan data masa lalu dan data saat ini."
+  },
+  {
+    "pertanyaan": "apa itu ai preskriptif",
+    "jawaban": "AI preskriptif adalah AI yang tidak hanya memprediksi, tetapi juga memberikan rekomendasi tindakan terbaik berdasarkan hasil analisis data."
+  },
+  {
+    "pertanyaan": "fungsi ai preskriptif",
+    "jawaban": "Fungsi AI preskriptif adalah membantu pengambilan keputusan dengan menyarankan langkah yang paling optimal."
+  },
+  {
+    "pertanyaan": "kemampuan ai preskriptif",
+    "jawaban": "Kemampuan AI preskriptif meliputi personalisasi, optimasi, pencegahan penipuan, dan rekomendasi tindakan terbaik berikutnya."
+  },
+  {
+    "pertanyaan": "contoh ai preskriptif",
+    "jawaban": "Contoh AI preskriptif adalah sistem rekomendasi produk, penjadwalan optimal, dan sistem deteksi serta pencegahan fraud."
+  },
+  {
+    "pertanyaan": "apa itu personalisasi dalam ai",
+    "jawaban": "Personalisasi dalam AI adalah kemampuan sistem menyesuaikan layanan, rekomendasi, atau pengalaman berdasarkan kebutuhan dan karakteristik pengguna."
+  },
+  {
+    "pertanyaan": "apa itu ai generatif",
+    "jawaban": "AI generatif adalah AI yang mampu menghasilkan konten baru seperti teks, gambar, kode, atau audio berdasarkan pola yang dipelajari dari data."
+  },
+  {
+    "pertanyaan": "apa itu ai kognitif",
+    "jawaban": "AI kognitif adalah AI yang meniru proses berpikir dan kreativitas manusia untuk membantu menghasilkan informasi atau solusi."
+  },
+  {
+    "pertanyaan": "fungsi ai generatif",
+    "jawaban": "Fungsi AI generatif adalah membuat konten baru, membantu pekerjaan kreatif, dan mengotomatisasi pembuatan materi tertentu."
+  },
+  {
+    "pertanyaan": "kemampuan ai generatif",
+    "jawaban": "Kemampuan AI generatif mencakup memberi saran, membuat konten, membantu tugas, meningkatkan efisiensi, dan mengotomatisasi pekerjaan berulang."
+  },
+  {
+    "pertanyaan": "contoh ai generatif",
+    "jawaban": "Contoh AI generatif adalah chatbot, generator gambar, pembuat ringkasan teks, dan alat bantu penulisan kode."
+  },
+  {
+    "pertanyaan": "apa itu ai reaktif",
+    "jawaban": "AI reaktif adalah AI yang merespons input saat ini dengan aturan yang telah ditentukan dan tidak menyimpan pengalaman masa lalu."
+  },
+  {
+    "pertanyaan": "fungsi ai reaktif",
+    "jawaban": "Fungsi AI reaktif adalah memberi respons cepat terhadap kondisi tertentu secara langsung."
+  },
+  {
+    "pertanyaan": "kemampuan ai reaktif",
+    "jawaban": "Kemampuan AI reaktif meliputi tindakan berbasis aturan, respons instan, dan analisis data saat ini tanpa mempertimbangkan interaksi sebelumnya."
+  },
+  {
+    "pertanyaan": "contoh ai reaktif",
+    "jawaban": "Contoh AI reaktif adalah sistem berbasis aturan sederhana dan program permainan yang hanya merespons kondisi saat itu."
+  },
+  {
+    "pertanyaan": "apa itu limited memory ai",
+    "jawaban": "Limited memory AI adalah AI yang dapat menggunakan sebagian data atau pengalaman masa lalu untuk membuat keputusan saat ini dengan lebih baik."
+  },
+  {
+    "pertanyaan": "fungsi limited memory ai",
+    "jawaban": "Fungsi limited memory AI adalah meningkatkan kualitas keputusan dengan memanfaatkan data historis dan pola sebelumnya."
+  },
+  {
+    "pertanyaan": "kemampuan limited memory ai",
+    "jawaban": "Kemampuan limited memory AI mencakup belajar dari data, mengenali pola dari waktu ke waktu, dan menghasilkan respons yang adaptif."
+  },
+  {
+    "pertanyaan": "contoh limited memory ai",
+    "jawaban": "Contoh limited memory AI adalah mobil otonom, sistem rekomendasi film, dan sistem prediksi berbasis riwayat data."
+  },
+  {
+    "pertanyaan": "apa itu theory of mind ai",
+    "jawaban": "Theory of Mind AI adalah konsep AI yang dirancang untuk memahami emosi, keyakinan, niat, dan keadaan mental manusia, namun masih dalam tahap penelitian."
+  },
+  {
+    "pertanyaan": "fungsi theory of mind ai",
+    "jawaban": "Fungsi Theory of Mind AI adalah memungkinkan interaksi yang lebih alami dan lebih peka terhadap kondisi manusia."
+  },
+  {
+    "pertanyaan": "kemampuan theory of mind ai",
+    "jawaban": "Kemampuan Theory of Mind AI mencakup pengenalan emosi, interaksi sosial yang lebih alami, dan prediksi niat manusia berdasarkan konteks."
+  },
+  {
+    "pertanyaan": "apa itu self aware ai",
+    "jawaban": "Self-aware AI adalah konsep AI tingkat sangat lanjut yang memiliki kesadaran diri dan dapat memahami kondisinya sendiri, tetapi saat ini masih bersifat teoretis."
+  },
+  {
+    "pertanyaan": "fungsi self aware ai",
+    "jawaban": "Secara teoritis, self-aware AI berfungsi untuk mengambil keputusan secara mandiri dengan mempertimbangkan kondisi internalnya sendiri."
+  },
+  {
+    "pertanyaan": "kemampuan self aware ai",
+    "jawaban": "Kemampuan self-aware AI secara teoritis mencakup diagnosis diri, pembelajaran mandiri, dan perilaku adaptif berbasis kesadaran diri."
+  },
+  {
+    "pertanyaan": "apa itu narrow ai",
+    "jawaban": "Narrow AI atau weak AI adalah AI yang dirancang untuk melakukan satu tugas atau sejumlah tugas terbatas secara sangat baik."
+  },
+  {
+    "pertanyaan": "fungsi narrow ai",
+    "jawaban": "Fungsi narrow AI adalah menyelesaikan tugas spesifik dengan tingkat akurasi dan efisiensi yang tinggi."
+  },
+  {
+    "pertanyaan": "contoh narrow ai",
+    "jawaban": "Contoh narrow AI adalah sistem pengenalan wajah, asisten virtual, sistem rekomendasi, dan filter spam email."
+  },
+  {
+    "pertanyaan": "apa itu general ai",
+    "jawaban": "General AI atau strong AI adalah konsep AI yang mampu memahami, belajar, dan menerapkan pengetahuan di berbagai bidang seperti manusia."
+  },
+  {
+    "pertanyaan": "fungsi general ai",
+    "jawaban": "Secara teoritis, general AI berfungsi untuk menyelesaikan berbagai jenis tugas lintas domain tanpa dibatasi oleh satu bidang tertentu."
+  },
+  {
+    "pertanyaan": "kemampuan general ai",
+    "jawaban": "Kemampuan general AI mencakup pembelajaran lintas domain, pengambilan keputusan mandiri, dan pemahaman yang menyerupai manusia."
+  },
+  {
+    "pertanyaan": "perbedaan narrow ai dan general ai",
+    "jawaban": "Narrow AI hanya unggul pada tugas spesifik, sedangkan general AI secara teoritis mampu memahami dan mengerjakan berbagai tugas seperti manusia."
+  },
+  {
+    "pertanyaan": "perbedaan ai reaktif dan limited memory ai",
+    "jawaban": "AI reaktif tidak menggunakan pengalaman masa lalu, sedangkan limited memory AI memanfaatkan data atau pengalaman sebelumnya untuk mendukung keputusan saat ini."
+  },
+  {
+    "pertanyaan": "apa itu clustering",
+    "jawaban": "Clustering adalah teknik pengelompokan data ke dalam beberapa kelompok berdasarkan kemiripan karakteristik antar data."
+  },
+  {
+    "pertanyaan": "apa itu classification",
+    "jawaban": "Classification adalah proses mengelompokkan data ke dalam kelas atau kategori tertentu berdasarkan pola yang dipelajari."
+  },
+  {
+    "pertanyaan": "apa itu decision tree",
+    "jawaban": "Decision tree adalah model berbentuk pohon yang digunakan untuk membantu klasifikasi atau prediksi berdasarkan serangkaian keputusan."
+  },
+  {
+    "pertanyaan": "mengapa penting mempelajari jenis ai",
+    "jawaban": "Mempelajari jenis AI penting agar kita memahami fungsi, kemampuan, keterbatasan, dan penerapan setiap jenis AI secara tepat dalam berbagai konteks."
+  }
+]
