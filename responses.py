@@ -1,102 +1,64 @@
 import json
 import os
-import difflib
-import re
+from thefuzz import process, fuzz
 
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FILE_JSON = os.path.join(BASE_DIR, "data", "materi_ai.json")
-
-
-def load_materi():
-    try:
-        with open(FILE_JSON, "r", encoding="utf-8") as file:
-            data = json.load(file)
-
-        if not isinstance(data, list):
+def load_data_materi():
+    path = "data/materi_lengkap.json"
+    if os.path.exists(path):
+        try:
+            with open(path, "r") as f:
+                return json.load(f)
+        except:
             return []
+    return []
 
-        data_valid = []
-        for item in data:
-            if isinstance(item, dict) and "pertanyaan" in item and "jawaban" in item:
-                data_valid.append(item)
+def respon_ai(prompt):
+    prompt = prompt.lower().strip()
+    materi_list = load_data_materi()
+    
+    # 1. Penanganan Percakapan Basa-Basi (Small Talk)
+    small_talk = {
+        "oke": "Siap! Kalau ada yang membingungkan lagi, tanya saja ya.",
+        "siap": "Oke! Semangat belajarnya!",
+        "terima kasih": "Sama-sama! Senang bisa membantu belajarmu hari ini.",
+        "thanks": "You're welcome! Ada materi lain yang mau dibahas?",
+        "itu saja": "Oke, ringkas sekali ya! Berarti kamu sudah paham bagian ini. Mau lanjut ke materi minggu berikutnya?",
+        "sudah": "Mantap kalau sudah paham! Mau coba kerjakan Latihan AI untuk ngetes pemahamanmu?",
+        "halo": "Halo juga! Saya asisten AI-mu. Hari ini kita mau bahas materi minggu ke-berapa nih?",
+        "hai": "Hai! Yuk, mau nanya apa seputar materi AI kita?"
+    }
 
-        return data_valid
+    # Cek apakah input user ada di daftar small talk
+    for key in small_talk:
+        if key in prompt:
+            return small_talk[key]
 
-    except FileNotFoundError:
-        return []
+    # 2. Kumpulkan semua sub-materi
+    semua_topik = {}
+    for minggu in materi_list:
+        for sub in minggu["sub_materi"]:
+            semua_topik[sub["judul"]] = {
+                "isi": sub["isi"],
+                "minggu": minggu["judul_besar"]
+            }
 
-    except json.JSONDecodeError:
-        return []
+    # 3. Fuzzy Matching
+    pilihan_judul = list(semua_topik.keys())
+    hasil_terbaik, skor = process.extractOne(prompt, pilihan_judul, scorer=fuzz.token_set_ratio)
 
-    except Exception:
-        return []
+    # 4. Respon Dinamis (Tidak Kaku)
+    if skor > 65:
+        data = semua_topik[hasil_terbaik]
+        # Membuat variasi awalan agar tidak bosan
+        variasi_awalan = [
+            f"Tentu, ini dia penjelasan tentang **{hasil_terbaik}**:",
+            f"Mengenai **{hasil_terbaik}**, ini yang perlu kamu catat:",
+            f"Berdasarkan materi {data['minggu']}, berikut adalah poin-poin penting **{hasil_terbaik}**:"
+        ]
+        import random
+        awalan = random.choice(variasi_awalan)
+        
+        return f"{awalan}\n\n{data['isi']}\n\nAda bagian dari penjelasan ini yang kurang jelas?"
 
-
-def bersihkan_teks(teks):
-    teks = teks.lower().strip()
-    teks = re.sub(r"[^\w\s]", "", teks)
-    teks = re.sub(r"\s+", " ", teks)
-    return teks
-
-
-def hitung_skor_kata(input_user, pertanyaan_data):
-    kata_user = set(input_user.split())
-    kata_data = set(pertanyaan_data.split())
-
-    if not kata_user or not kata_data:
-        return 0
-
-    jumlah_cocok = len(kata_user.intersection(kata_data))
-    return jumlah_cocok / len(kata_data)
-
-
-def cari_jawaban(pertanyaan_user, data_materi):
-    if not data_materi:
-        return "Maaf, data materi belum tersedia."
-
-    pertanyaan_user_bersih = bersihkan_teks(pertanyaan_user)
-
-    daftar_pertanyaan = [bersihkan_teks(item["pertanyaan"]) for item in data_materi]
-
-    # 1. Cek kecocokan persis
-    for item in data_materi:
-        if bersihkan_teks(item["pertanyaan"]) == pertanyaan_user_bersih:
-            return item["jawaban"]
-
-    # 2. Cek kemiripan teks
-    hasil_cocok = difflib.get_close_matches(
-        pertanyaan_user_bersih,
-        daftar_pertanyaan,
-        n=1,
-        cutoff=0.4
-    )
-
-    if hasil_cocok:
-        pertanyaan_terbaik = hasil_cocok[0]
-        for item in data_materi:
-            if bersihkan_teks(item["pertanyaan"]) == pertanyaan_terbaik:
-                return item["jawaban"]
-
-    # 3. Cek berdasarkan kata kunci
-    skor_terbaik = 0
-    jawaban_terbaik = None
-
-    for item in data_materi:
-        pertanyaan_data_bersih = bersihkan_teks(item["pertanyaan"])
-        skor = hitung_skor_kata(pertanyaan_user_bersih, pertanyaan_data_bersih)
-
-        if skor > skor_terbaik:
-            skor_terbaik = skor
-            jawaban_terbaik = item["jawaban"]
-
-    if skor_terbaik >= 0.3:
-        return jawaban_terbaik
-
-    # 4. Respon default
-    return "Maaf, saya belum menemukan jawaban yang sesuai di materi. Coba gunakan kata kunci yang lebih spesifik."
-
-
-def respon_ai(pertanyaan_user):
-    data_materi = load_materi()
-    return cari_jawaban(pertanyaan_user, data_materi)
+    # 5. Jika Bot Benar-benar Tidak Tahu
+    return "Wah, sepertinya saya belum punya data spesifik soal itu. Tapi kalau mau bahas **" + ", ".join(pilihan_judul[:2]) + "**, saya siap bantu!"

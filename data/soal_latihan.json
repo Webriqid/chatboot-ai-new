@@ -1,0 +1,26 @@
+[
+  {
+    "minggu": 1,
+    "soal": [
+      {
+        "pertanyaan": "Siapa bapak AI?",
+        "pilihan": ["Alan Turing", "John McCarthy", "Elon Musk"],
+        "jawaban": "John McCarthy"
+      }
+    ]
+  },
+  {
+    "minggu": 2,
+    "soal": [
+      {
+        "pertanyaan": "Apa itu Supervised Learning?",
+        "pilihan": [
+          "Belajar sendiri",
+          "Belajar dengan guru/label",
+          "Tidak belajar"
+        ],
+        "jawaban": "Belajar dengan guru/label"
+      }
+    ]
+  }
+]

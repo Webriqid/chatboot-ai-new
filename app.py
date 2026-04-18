@@ -1,293 +1,106 @@
 import streamlit as st
-from responses import respon_ai
 
+# 1. KONFIGURASI HALAMAN
+st.set_page_config(page_title="Chatbot AI", page_icon=None, layout="wide")
 
-PERTANYAAN_CEPAT = [
-    "Apa itu AI?",
-    "Apa itu AI prediktif?",
-    "Contoh AI generatif",
-    "Perbedaan narrow AI dan general AI",
-    "Apa fungsi AI preskriptif?",
-    "Apa itu limited memory AI?"
-]
+# 2. INISIALISASI STATE
+if "threads" not in st.session_state:
+    st.session_state.threads = {"Diskusi Umum": []}
 
-
-st.set_page_config(
-    page_title="Chatbot Materi AI",
-    page_icon="🤖",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-
-def load_css():
-    st.markdown("""
+# 3. CSS GLOBAL (DIBERSIHKAN & DIPERKUAT)
+st.markdown("""
     <style>
-    .main {
-        padding-top: 1rem;
+    [data-testid="stSidebarNav"] {display: none;}
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+    html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+    /* CSS UNTUK LOGO (KEBAL MODE GELAP & ANTI-BIRU SETELAH DIKLIK) */
+    .chatbot-logo, 
+    .chatbot-logo:link, 
+    .chatbot-logo:visited, 
+    .chatbot-logo:hover, 
+    .chatbot-logo:active {
+        font-weight: bold !important;
+        font-size: 26px !important;
+        text-decoration: none !important;
+        color: var(--text-color) !important; 
+        transition: 0.2s !important;
+        display: block !important;
+        margin-bottom: 10px !important;
     }
 
-    .hero-box {
-        background: linear-gradient(135deg, #0f172a, #1e293b);
-        padding: 28px;
-        border-radius: 20px;
-        color: white;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.18);
-        margin-bottom: 20px;
+    .chatbot-logo:hover {
+        opacity: 0.8 !important;
+        text-decoration: underline !important;
     }
+    
+    hr { border: 0; border-top: 1px solid #d1d5db; margin: 1rem 0; }
 
-    .hero-title {
-        font-size: 42px;
-        font-weight: 800;
-        margin-bottom: 8px;
-    }
-
-    .hero-subtitle {
-        font-size: 18px;
-        opacity: 0.92;
-    }
-
-    .info-card {
-        background: #111827;
-        border: 1px solid #1f2937;
-        border-radius: 18px;
-        padding: 18px;
-        margin-bottom: 14px;
-        box-shadow: 0 4px 14px rgba(0,0,0,0.12);
-    }
-
-    .info-title {
-        font-size: 20px;
-        font-weight: 700;
-        margin-bottom: 8px;
-        color: #f9fafb;
-    }
-
-    .info-text {
-        font-size: 15px;
-        color: #e5e7eb;
-        line-height: 1.7;
-    }
-
-    .section-title {
-        font-size: 24px;
-        font-weight: 700;
-        margin-top: 6px;
-        margin-bottom: 10px;
-    }
-
-    .small-note {
-        font-size: 14px;
-        color: #cbd5e1;
-        margin-bottom: 12px;
-    }
-
-    .footer-note {
+    /* Kotak Menu yang Adaptif Mode Terang/Gelap */
+    .option-card {
+        background-color: rgba(255, 255, 255, 0.05); 
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid var(--text-color) !important; 
         text-align: center;
-        font-size: 13px;
-        color: #94a3b8;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        min-height: 150px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        color: var(--text-color) !important;
+        transition: 0.3s;
     }
 
-    div[data-testid="stChatMessage"] {
-        border-radius: 18px;
-        padding: 6px 4px;
+    .option-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+        border: 1px solid #3b82f6 !important;
+    }
+    
+    .option-card h3 {
+        color: var(--text-color) !important;
     }
 
-    div[data-testid="stChatInput"] {
-        margin-top: 10px;
-    }
-
-    div.stButton > button {
-        width: 100%;
-        border-radius: 12px;
-        border: 1px solid #334155;
-        background: #0f172a;
-        color: white;
-        padding: 0.7rem 1rem;
-        font-weight: 600;
-        text-align: left;
-        transition: 0.3s ease;
-        margin-bottom: 8px;
-    }
-
-    div.stButton > button:hover {
-        border: 1px solid #38bdf8;
-        color: #38bdf8;
+    /* Paksa navigasi link di sidebar agar tidak biru */
+    section[data-testid="stSidebar"] a {
+        color: var(--text-color) !important;
+        text-decoration: none !important;
     }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
+# 4. SIDEBAR (DITAMBAHKAN NAVIGASI LATIHAN)
+with st.sidebar:
+    st.markdown('<a href="/" target="_self" class="chatbot-logo">Chatbot AI</a>', unsafe_allow_html=True)
+    st.divider()
+    st.page_link("app.py", label="🏠 Beranda")
+    st.page_link("pages/Ruang_chat.py", label="💬 Ruang Chat")
+    st.page_link("pages/Latihan.py", label="📝 Latihan AI")
+    st.page_link("pages/Materi.py", label="📖 Materi AI") # Tambahkan baris ini
+    st.divider()
 
-def inisialisasi_chat():
-    if "messages" not in st.session_state:
-        st.session_state.messages = [
-            {
-                "role": "assistant",
-                "content": (
-                    "Halo, saya siap membantu Anda mempelajari materi Artificial Intelligence. "
-                    "Silakan ajukan pertanyaan terkait konsep, jenis, fungsi, contoh, atau perbedaan antar jenis AI."
-                )
-            }
-        ]
-
-
-def tampilkan_header():
-    st.markdown("""
-    <div class="hero-box">
-        <div class="hero-title">🤖 Chatbot Materi AI</div>
-        <div class="hero-subtitle">
-            Aplikasi pembelajaran interaktif untuk membantu mahasiswa memahami konsep,
-            jenis, fungsi, dan contoh penerapan Artificial Intelligence.
-        </div>
+# 5. KONTEN UTAMA
+st.markdown("""
+    <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 80px 40px; border-radius: 24px; color: white; text-align: center;">
+        <h1 style='font-size: 50px; margin-bottom: 10px;'>Selamat Datang di Chatbot AI</h1>
+        <p style='font-size: 18px; opacity: 0.8;'>Pilih modul pembelajaran di bawah ini untuk memulai.</p>
     </div>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
+st.write("##")
 
-def tampilkan_kartu_info():
-    col1, col2, col3 = st.columns(3)
+# 6. PILIHAN MENU
+col1, col2, col3 = st.columns(3)
 
-    with col1:
-        st.markdown("""
-        <div class="info-card">
-            <div class="info-title">📘 Fokus Materi</div>
-            <div class="info-text">
-                Konsep dasar AI, AI deskriptif, prediktif, preskriptif,
-                generatif, reaktif, narrow AI, dan general AI.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+with col1:
+    st.markdown('<div class="option-card"><h3>💬 Ruang Chat</h3><p>Diskusi interaktif dengan AI tentang materi kuliah.</p></div>', unsafe_allow_html=True)
+    if st.button("Masuk Chat", use_container_width=True, key="btn_chat"):
+        st.switch_page("pages/Ruang_chat.py")
 
-    with col2:
-        st.markdown("""
-        <div class="info-card">
-            <div class="info-title">🎯 Tujuan</div>
-            <div class="info-text">
-                Membantu mahasiswa belajar lebih mandiri, cepat memahami istilah,
-                dan mudah mengeksplorasi materi melalui tanya jawab interaktif.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+with col2:
+    st.markdown('<div class="option-card"><h3>📝 Latihan AI</h3><p>Uji pemahamanmu dengan kuis mingguan yang menantang.</p></div>', unsafe_allow_html=True)
+    if st.button("Mulai Latihan", use_container_width=True, key="btn_quiz"):
+        st.switch_page("pages/Latihan.py") 
 
-    with col3:
-        st.markdown("""
-        <div class="info-card">
-            <div class="info-title">🧠 Mode Belajar</div>
-            <div class="info-text">
-                Mahasiswa dapat bertanya langsung tentang pengertian, fungsi,
-                contoh, dan perbedaan konsep AI secara sederhana.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-
-def tampilkan_contoh_pertanyaan():
-    st.markdown('<div class="section-title">💡 Contoh Pertanyaan</div>', unsafe_allow_html=True)
-    st.markdown(
-        '<div class="small-note">Klik salah satu pertanyaan berikut untuk mencoba chatbot secara cepat.</div>',
-        unsafe_allow_html=True
-    )
-
-    col1, col2 = st.columns(2)
-
-    setengah = (len(PERTANYAAN_CEPAT) + 1) // 2
-    daftar_kiri = PERTANYAAN_CEPAT[:setengah]
-    daftar_kanan = PERTANYAAN_CEPAT[setengah:]
-
-    with col1:
-        for i, pertanyaan in enumerate(daftar_kiri):
-            if st.button(pertanyaan, key=f"kiri_{i}", use_container_width=True):
-                proses_pertanyaan_cepat(pertanyaan)
-                st.rerun()
-
-    with col2:
-        for i, pertanyaan in enumerate(daftar_kanan):
-            if st.button(pertanyaan, key=f"kanan_{i}", use_container_width=True):
-                proses_pertanyaan_cepat(pertanyaan)
-                st.rerun()
-
-
-def tampilkan_sidebar():
-    with st.sidebar:
-        st.markdown("## 📚 Tentang Aplikasi")
-        st.write("""
-        Chatbot ini dirancang sebagai media bantu pembelajaran untuk mahasiswa
-        dalam memahami materi Artificial Intelligence secara lebih interaktif.
-        """)
-
-        st.markdown("## 📝 Cakupan Materi")
-        st.write("""
-        - Pengertian AI  
-        - Jenis-jenis AI  
-        - Fungsi tiap jenis AI  
-        - Contoh penerapan AI  
-        - Perbedaan antar konsep AI  
-        """)
-
-        st.markdown("## 🎓 Saran Penggunaan")
-        st.write("""
-        Gunakan pertanyaan yang jelas, misalnya:
-        - apa itu ai
-        - jelaskan ai prediktif
-        - contoh ai generatif
-        """)
-
-        if st.button("🔄 Reset Percakapan", use_container_width=True):
-            st.session_state.messages = [
-                {
-                    "role": "assistant",
-                    "content": "Riwayat percakapan telah direset. Silakan mulai bertanya kembali."
-                }
-            ]
-            st.rerun()
-
-
-def tampilkan_riwayat():
-    st.markdown('<div class="section-title">💬 Ruang Percakapan</div>', unsafe_allow_html=True)
-
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            if msg["role"] == "user":
-                st.markdown(f"**Mahasiswa:** {msg['content']}")
-            else:
-                st.markdown(f"**Chatbot:** {msg['content']}")
-
-
-def proses_pertanyaan(prompt):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-
-    with st.spinner("Chatbot sedang menyiapkan jawaban..."):
-        jawaban = respon_ai(prompt)
-
-    st.session_state.messages.append({"role": "assistant", "content": jawaban})
-
-
-def proses_pertanyaan_cepat(pertanyaan):
-    proses_pertanyaan(pertanyaan)
-
-
-def main():
-    load_css()
-    inisialisasi_chat()
-    tampilkan_sidebar()
-
-    tampilkan_header()
-    tampilkan_kartu_info()
-    tampilkan_contoh_pertanyaan()
-    tampilkan_riwayat()
-
-    prompt = st.chat_input("Ketik pertanyaan Anda di sini...")
-
-    if prompt:
-        proses_pertanyaan(prompt)
-        st.rerun()
-
-    st.markdown(
-        '<div class="footer-note">Dikembangkan sebagai media bantu pembelajaran materi Artificial Intelligence.</div>',
-        unsafe_allow_html=True
-    )
-
-
-if __name__ == "__main__":
-    main()
+with col3:
+    st.markdown('<div class="option-card"><h3>📖 Materi AI</h3><p>Lihat ringkasan materi dan glosarium istilah AI.</p></div>', unsafe_allow_html=True)
+    if st.button("Lihat Materi", use_container_width=True, key="btn_materi"):
+        st.switch_page("pages/Materi.py")
