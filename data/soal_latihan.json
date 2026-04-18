@@ -3,9 +3,104 @@
     "minggu": 1,
     "soal": [
       {
-        "pertanyaan": "Siapa bapak AI?",
-        "pilihan": ["Alan Turing", "John McCarthy", "Elon Musk"],
-        "jawaban": "John McCarthy"
+        "pertanyaan": "Artificial Intelligence secara umum dapat dipahami sebagai",
+        "pilihan": [
+          "sistem mekanik yang selalu berbentuk robot",
+          "bidang ilmu yang mempelajari sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia",
+          "perangkat lunak untuk membuat presentasi otomatis",
+          "semua teknologi digital yang digunakan di sekolah"
+        ],
+        "jawaban": "bidang ilmu yang mempelajari sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia"
+      },
+      {
+        "pertanyaan": "Dalam pendekatan modern, AI banyak dipahami sebagai kajian tentang",
+        "pilihan": [
+          "media sosial digital",
+          "agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan",
+          "perangkat keras komputer",
+          "jaringan internet global"
+        ],
+        "jawaban": "agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan"
+      },
+      {
+        "pertanyaan": "Salah satu alasan AI menjadi penting dalam pendidikan adalah karena AI",
+        "pilihan": [
+          "menghapus seluruh kebutuhan guru",
+          "menggantikan semua kurikulum yang ada",
+          "dapat mendukung personalisasi pembelajaran dan analisis data belajar",
+          "membuat semua mahasiswa memperoleh nilai tinggi"
+        ],
+        "jawaban": "dapat mendukung personalisasi pembelajaran dan analisis data belajar"
+      },
+      {
+        "pertanyaan": "Revolusi Industri 4.0 ditandai oleh",
+        "pilihan": [
+          "berakhirnya penggunaan komputer",
+          "integrasi teknologi digital, data, dan otomasi dalam berbagai bidang",
+          "penghapusan seluruh pekerjaan manusia",
+          "penolakan terhadap teknologi dalam pendidikan"
+        ],
+        "jawaban": "integrasi teknologi digital, data, dan otomasi dalam berbagai bidang"
+      },
+      {
+        "pertanyaan": "Konsep Society 5.0 menekankan bahwa teknologi seharusnya",
+        "pilihan": [
+          "dibiarkan bekerja tanpa campur tangan manusia",
+          "hanya digunakan untuk kebutuhan industri besar",
+          "dimanfaatkan untuk meningkatkan kualitas hidup manusia dan menyelesaikan persoalan sosial",
+          "menggantikan seluruh profesi pendidikan"
+        ],
+        "jawaban": "dimanfaatkan untuk meningkatkan kualitas hidup manusia dan menyelesaikan persoalan sosial"
+      },
+      {
+        "pertanyaan": "Perbedaan utama antara orientasi Revolusi Industri 4.0 dan Society 5.0 adalah",
+        "pilihan": [
+          "Revolusi Industri 4.0 menolak AI, sedangkan Society 5.0 menerima AI",
+          "Revolusi Industri 4.0 menekankan efisiensi sistem, sedangkan Society 5.0 menekankan kebermanfaatan bagi manusia",
+          "Revolusi Industri 4.0 hanya untuk pendidikan, sedangkan Society 5.0 hanya untuk industri",
+          "keduanya sama persis tanpa perbedaan"
+        ],
+        "jawaban": "Revolusi Industri 4.0 menekankan efisiensi sistem, sedangkan Society 5.0 menekankan kebermanfaatan bagi manusia"
+      },
+      {
+        "pertanyaan": "Dalam konteks pendidikan, AI sebaiknya diposisikan sebagai",
+        "pilihan": [
+          "pengganti total peran dosen",
+          "alat bantu yang mendukung proses belajar dan pengambilan keputusan pedagogis",
+          "sarana untuk menghapus evaluasi pembelajaran",
+          "teknologi yang tidak perlu dipahami mahasiswa"
+        ],
+        "jawaban": "alat bantu yang mendukung proses belajar dan pengambilan keputusan pedagogis"
+      },
+      {
+        "pertanyaan": "Salah satu manfaat AI bagi peserta didik adalah",
+        "pilihan": [
+          "menghilangkan kebutuhan untuk membaca sumber ilmiah",
+          "memberi umpan balik awal dan dukungan belajar yang lebih personal",
+          "mengganti seluruh proses berpikir kritis",
+          "menjamin semua jawaban selalu benar"
+        ],
+        "jawaban": "memberi umpan balik awal dan dukungan belajar yang lebih personal"
+      },
+      {
+        "pertanyaan": "Salah satu tantangan utama penerapan AI dalam pendidikan adalah",
+        "pilihan": [
+          "semua institusi telah siap sepenuhnya",
+          "AI selalu bebas bias",
+          "integritas akademik, bias algoritma, dan literasi AI yang masih terbatas",
+          "tidak adanya hubungan AI dengan pembelajaran"
+        ],
+        "jawaban": "integritas akademik, bias algoritma, dan literasi AI yang masih terbatas"
+      },
+      {
+        "pertanyaan": "Literasi AI bagi calon pendidik penting agar mereka",
+        "pilihan": [
+          "hanya menjadi pengguna pasif teknologi",
+          "dapat menggunakan dan menilai AI secara kritis, etis, dan bertanggung jawab",
+          "tidak perlu memahami pembelajaran",
+          "fokus pada teknologi tanpa memperhatikan peserta didik"
+        ],
+        "jawaban": "dapat menggunakan dan menilai AI secara kritis, etis, dan bertanggung jawab"
       }
     ]
   },
