@@ -1,3 +1,5 @@
 streamlit
 thefuzz
 python-Levenshtein
+st-gsheets-connection
+pandas

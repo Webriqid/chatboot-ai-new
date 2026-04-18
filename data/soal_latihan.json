@@ -108,13 +108,99 @@
     "minggu": 2,
     "soal": [
       {
-        "pertanyaan": "Apa itu Supervised Learning?",
+        "pertanyaan": "Artificial Intelligence dalam pendekatan modern paling tepat dipahami sebagai",
         "pilihan": [
-          "Belajar sendiri",
-          "Belajar dengan guru/label",
-          "Tidak belajar"
+          "teknologi yang selalu berbentuk robot humanoid",
+          "sistem komputer yang hanya digunakan untuk industri",
+          "kajian tentang agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan",
+          "perangkat lunak yang menggantikan semua pekerjaan manusia"
         ],
-        "jawaban": "Belajar dengan guru/label"
+        "jawaban": "kajian tentang agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan"
+      },
+      {
+        "pertanyaan": "Istilah Artificial Intelligence mulai diperkenalkan secara formal pada",
+        "pilihan": ["1945", "1956", "1970", "1990"],
+        "jawaban": "1956"
+      },
+      {
+        "pertanyaan": "Salah satu alasan utama mengapa AI berkembang sangat pesat pada era modern adalah",
+        "pilihan": [
+          "semua data manual telah dihapus",
+          "berkurangnya penggunaan komputer",
+          "ketersediaan data, daya komputasi, dan kemajuan algoritma",
+          "hilangnya kebutuhan akan pembelajaran manusia"
+        ],
+        "jawaban": "ketersediaan data, daya komputasi, dan kemajuan algoritma"
+      },
+      {
+        "pertanyaan": "Yang dimaksud dengan AI winter adalah",
+        "pilihan": [
+          "masa ketika AI hanya digunakan pada musim tertentu",
+          "periode menurunnya minat dan pendanaan terhadap AI karena hasil yang belum memenuhi harapan",
+          "tahap awal ketika AI pertama kali ditemukan",
+          "masa ketika AI mulai digunakan di sekolah"
+        ],
+        "jawaban": "periode menurunnya minat dan pendanaan terhadap AI karena hasil yang belum memenuhi harapan"
+      },
+      {
+        "pertanyaan": "Pendekatan AI klasik berbeda dari AI modern karena AI klasik lebih menekankan",
+        "pilihan": [
+          "pembelajaran dari data dalam skala besar",
+          "aturan-aturan eksplisit dan representasi pengetahuan",
+          "penggunaan media sosial dalam pendidikan",
+          "produksi gambar dan video secara otomatis"
+        ],
+        "jawaban": "aturan-aturan eksplisit dan representasi pengetahuan"
+      },
+      {
+        "pertanyaan": "Salah satu contoh pengaruh perkembangan AI di sektor industri adalah",
+        "pilihan": [
+          "penghapusan seluruh proses produksi",
+          "penolakan penggunaan data",
+          "pemeliharaan prediktif dan optimasi rantai pasok",
+          "pengurangan kebutuhan analisis sama sekali"
+        ],
+        "jawaban": "pemeliharaan prediktif dan optimasi rantai pasok"
+      },
+      {
+        "pertanyaan": "Salah satu bentuk perkembangan AI dalam pendidikan adalah",
+        "pilihan": [
+          "penghapusan seluruh peran dosen",
+          "munculnya tutor cerdas, analitik pembelajaran, dan penilaian otomatis",
+          "larangan penggunaan teknologi digital",
+          "pembelajaran tanpa interaksi manusia sama sekali"
+        ],
+        "jawaban": "munculnya tutor cerdas, analitik pembelajaran, dan penilaian otomatis"
+      },
+      {
+        "pertanyaan": "Mengapa perkembangan AI di pendidikan tidak dapat disamakan sepenuhnya dengan di industri?",
+        "pilihan": [
+          "Karena pendidikan tidak menggunakan teknologi",
+          "Karena pendidikan hanya berfokus pada efisiensi ekonomi",
+          "Karena pendidikan juga menekankan dimensi pedagogis, etis, dan perkembangan manusia",
+          "Karena industri tidak mengenal AI"
+        ],
+        "jawaban": "Karena pendidikan juga menekankan dimensi pedagogis, etis, dan perkembangan manusia"
+      },
+      {
+        "pertanyaan": "Hubungan antara AI, machine learning, dan deep learning yang paling tepat adalah",
+        "pilihan": [
+          "machine learning adalah bagian dari deep learning, dan deep learning adalah bagian dari internet",
+          "AI adalah cabang dari machine learning",
+          "AI adalah payung besar, machine learning adalah salah satu cabangnya, dan deep learning adalah bagian dari machine learning",
+          "ketiganya tidak memiliki hubungan"
+        ],
+        "jawaban": "AI adalah payung besar, machine learning adalah salah satu cabangnya, dan deep learning adalah bagian dari machine learning"
+      },
+      {
+        "pertanyaan": "Salah satu pelajaran penting dari sejarah perkembangan AI adalah",
+        "pilihan": [
+          "setiap kemajuan teknologi harus diterima tanpa kritik",
+          "AI selalu berkembang secara stabil tanpa hambatan",
+          "perkembangan AI perlu dipahami secara kritis karena dipengaruhi oleh keberhasilan, keterbatasan, dan perubahan paradigma",
+          "AI hanya relevan bagi ilmuwan komputer"
+        ],
+        "jawaban": "perkembangan AI perlu dipahami secara kritis karena dipengaruhi oleh keberhasilan, keterbatasan, dan perubahan paradigma"
       }
     ]
   }

@@ -1,5 +1,68 @@
 import streamlit as st
 import json
+from streamlit_gsheets import GSheetsConnection
+import pandas as pd
+from datetime import datetime
+
+# 1. INISIALISASI KONEKSI DATABASE
+conn = st.connection("gsheets", type=GSheetsConnection)
+
+def run_latihan():
+    st.title("📝 Latihan AI - Pertemuan 1")
+    
+    # Input Nama Mahasiswa
+    nama_user = st.text_input("Masukkan Nama Lengkap kamu:", placeholder="Contoh: Kobe")
+    
+    # ... (Logika menampilkan soal kuis kamu di sini) ...
+    # Misal kita asumsikan variabel 'skor_akhir' dan 'total_soal' sudah dihitung
+    
+    if st.button("Selesai & Kirim Nilai"):
+        if nama_user.strip() == "":
+            st.warning("Silakan isi nama kamu terlebih dahulu!")
+        else:
+            try:
+                # Ambil data yang sudah ada di Sheets
+                existing_data = conn.read(ttl=0)
+                
+                # Buat baris baru
+                new_row = pd.DataFrame([{
+                    "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "Nama": nama_user,
+                    "Minggu": 1,
+                    "Skor": skor_akhir,
+                    "Total_Soal": total_soal
+                }])
+                
+                # Gabungkan
+                updated_df = pd.concat([existing_data, new_row], ignore_index=True)
+                
+                # Update ke Google Sheets
+                conn.update(data=updated_df)
+                
+                st.balloons()
+                st.success(f"Selamat {nama_user}! Nilai kamu ({skor_akhir}/{total_soal}) berhasil disimpan ke database Admin.")
+            except Exception as e:
+                st.error(f"Gagal menyimpan nilai: {e}")
+
+run_latihan()
+
+# Inisialisasi koneksi Google Sheets
+conn = streamlit_gsheets.connect('gsheets, type = GSheetsConnection')
+#logika setelah mahasiswa selesai kuis
+def simpan_ke_database(nama, minggu, skor,total):
+    existing_data = conn.read(ttl=0')
+    
+
+    new_data = pd.DataFrame({
+        'Nama': [nama],
+        'Minggu': [minggu],
+        'Skor': [skor],
+        'Total': [total]
+    })
+
+    updated_data = pd.concat([existing_data, new_data], ignore_index=True)
+    conn.write(updated_data, worksheet='sheet1', data=updated_data)
+    st.success("Nilai berhasil disimpan!")
 
 st.set_page_config(page_title="Chatbot AI - Latihan", page_icon=None, layout="wide")
 
