@@ -1,0 +1,21 @@
+[
+  {
+    "minggu": 1,
+    "judul_besar": "Pengenalan Dasar AI",
+    "sub_materi": [
+      { "judul": "Sejarah AI", "isi": "AI dimulai dari mimpi Alan Turing..." },
+      {
+        "judul": "Definisi Modern",
+        "isi": "Saat ini AI adalah tentang data..."
+      }
+    ]
+  },
+  {
+    "minggu": 2,
+    "judul_besar": "Machine Learning Dasar",
+    "sub_materi": [
+      { "judul": "Supervised Learning", "isi": "Belajar dengan label..." },
+      { "judul": "Unsupervised Learning", "isi": "Mencari pola tersembunyi..." }
+    ]
+  }
+]

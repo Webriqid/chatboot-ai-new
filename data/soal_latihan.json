@@ -1,0 +1,419 @@
+[
+  {
+    "minggu": 1,
+    "soal": [
+      {
+        "pertanyaan": "Artificial Intelligence secara umum dapat dipahami sebagai",
+        "pilihan": [
+          "sistem mekanik yang selalu berbentuk robot",
+          "bidang ilmu yang mempelajari sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia",
+          "perangkat lunak untuk membuat presentasi otomatis",
+          "semua teknologi digital yang digunakan di sekolah"
+        ],
+        "jawaban": "bidang ilmu yang mempelajari sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia"
+      },
+      {
+        "pertanyaan": "Dalam pendekatan modern, AI banyak dipahami sebagai kajian tentang",
+        "pilihan": [
+          "media sosial digital",
+          "agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan",
+          "perangkat keras komputer",
+          "jaringan internet global"
+        ],
+        "jawaban": "agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan"
+      },
+      {
+        "pertanyaan": "Salah satu alasan AI menjadi penting dalam pendidikan adalah karena AI",
+        "pilihan": [
+          "menghapus seluruh kebutuhan guru",
+          "menggantikan semua kurikulum yang ada",
+          "dapat mendukung personalisasi pembelajaran dan analisis data belajar",
+          "membuat semua mahasiswa memperoleh nilai tinggi"
+        ],
+        "jawaban": "dapat mendukung personalisasi pembelajaran dan analisis data belajar"
+      },
+      {
+        "pertanyaan": "Revolusi Industri 4.0 ditandai oleh",
+        "pilihan": [
+          "berakhirnya penggunaan komputer",
+          "integrasi teknologi digital, data, dan otomasi dalam berbagai bidang",
+          "penghapusan seluruh pekerjaan manusia",
+          "penolakan terhadap teknologi dalam pendidikan"
+        ],
+        "jawaban": "integrasi teknologi digital, data, dan otomasi dalam berbagai bidang"
+      },
+      {
+        "pertanyaan": "Konsep Society 5.0 menekankan bahwa teknologi seharusnya",
+        "pilihan": [
+          "dibiarkan bekerja tanpa campur tangan manusia",
+          "hanya digunakan untuk kebutuhan industri besar",
+          "dimanfaatkan untuk meningkatkan kualitas hidup manusia dan menyelesaikan persoalan sosial",
+          "menggantikan seluruh profesi pendidikan"
+        ],
+        "jawaban": "dimanfaatkan untuk meningkatkan kualitas hidup manusia dan menyelesaikan persoalan sosial"
+      },
+      {
+        "pertanyaan": "Perbedaan utama antara orientasi Revolusi Industri 4.0 dan Society 5.0 adalah",
+        "pilihan": [
+          "Revolusi Industri 4.0 menolak AI, sedangkan Society 5.0 menerima AI",
+          "Revolusi Industri 4.0 menekankan efisiensi sistem, sedangkan Society 5.0 menekankan kebermanfaatan bagi manusia",
+          "Revolusi Industri 4.0 hanya untuk pendidikan, sedangkan Society 5.0 hanya untuk industri",
+          "keduanya sama persis tanpa perbedaan"
+        ],
+        "jawaban": "Revolusi Industri 4.0 menekankan efisiensi sistem, sedangkan Society 5.0 menekankan kebermanfaatan bagi manusia"
+      },
+      {
+        "pertanyaan": "Dalam konteks pendidikan, AI sebaiknya diposisikan sebagai",
+        "pilihan": [
+          "pengganti total peran dosen",
+          "alat bantu yang mendukung proses belajar dan pengambilan keputusan pedagogis",
+          "sarana untuk menghapus evaluasi pembelajaran",
+          "teknologi yang tidak perlu dipahami mahasiswa"
+        ],
+        "jawaban": "alat bantu yang mendukung proses belajar dan pengambilan keputusan pedagogis"
+      },
+      {
+        "pertanyaan": "Salah satu manfaat AI bagi peserta didik adalah",
+        "pilihan": [
+          "menghilangkan kebutuhan untuk membaca sumber ilmiah",
+          "memberi umpan balik awal dan dukungan belajar yang lebih personal",
+          "mengganti seluruh proses berpikir kritis",
+          "menjamin semua jawaban selalu benar"
+        ],
+        "jawaban": "memberi umpan balik awal dan dukungan belajar yang lebih personal"
+      },
+      {
+        "pertanyaan": "Salah satu tantangan utama penerapan AI dalam pendidikan adalah",
+        "pilihan": [
+          "semua institusi telah siap sepenuhnya",
+          "AI selalu bebas bias",
+          "integritas akademik, bias algoritma, dan literasi AI yang masih terbatas",
+          "tidak adanya hubungan AI dengan pembelajaran"
+        ],
+        "jawaban": "integritas akademik, bias algoritma, dan literasi AI yang masih terbatas"
+      },
+      {
+        "pertanyaan": "Literasi AI bagi calon pendidik penting agar mereka",
+        "pilihan": [
+          "hanya menjadi pengguna pasif teknologi",
+          "dapat menggunakan dan menilai AI secara kritis, etis, dan bertanggung jawab",
+          "tidak perlu memahami pembelajaran",
+          "fokus pada teknologi tanpa memperhatikan peserta didik"
+        ],
+        "jawaban": "dapat menggunakan dan menilai AI secara kritis, etis, dan bertanggung jawab"
+      }
+    ]
+  },
+  {
+    "minggu": 2,
+    "soal": [
+      {
+        "pertanyaan": "Artificial Intelligence dalam pendekatan modern paling tepat dipahami sebagai",
+        "pilihan": [
+          "teknologi yang selalu berbentuk robot humanoid",
+          "sistem komputer yang hanya digunakan untuk industri",
+          "kajian tentang agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan",
+          "perangkat lunak yang menggantikan semua pekerjaan manusia"
+        ],
+        "jawaban": "kajian tentang agen cerdas yang menerima masukan dari lingkungan dan bertindak untuk mencapai tujuan"
+      },
+      {
+        "pertanyaan": "Istilah Artificial Intelligence mulai diperkenalkan secara formal pada",
+        "pilihan": ["1945", "1956", "1970", "1990"],
+        "jawaban": "1956"
+      },
+      {
+        "pertanyaan": "Salah satu alasan utama mengapa AI berkembang sangat pesat pada era modern adalah",
+        "pilihan": [
+          "semua data manual telah dihapus",
+          "berkurangnya penggunaan komputer",
+          "ketersediaan data, daya komputasi, dan kemajuan algoritma",
+          "hilangnya kebutuhan akan pembelajaran manusia"
+        ],
+        "jawaban": "ketersediaan data, daya komputasi, dan kemajuan algoritma"
+      },
+      {
+        "pertanyaan": "Yang dimaksud dengan AI winter adalah",
+        "pilihan": [
+          "masa ketika AI hanya digunakan pada musim tertentu",
+          "periode menurunnya minat dan pendanaan terhadap AI karena hasil yang belum memenuhi harapan",
+          "tahap awal ketika AI pertama kali ditemukan",
+          "masa ketika AI mulai digunakan di sekolah"
+        ],
+        "jawaban": "periode menurunnya minat dan pendanaan terhadap AI karena hasil yang belum memenuhi harapan"
+      },
+      {
+        "pertanyaan": "Pendekatan AI klasik berbeda dari AI modern karena AI klasik lebih menekankan",
+        "pilihan": [
+          "pembelajaran dari data dalam skala besar",
+          "aturan-aturan eksplisit dan representasi pengetahuan",
+          "penggunaan media sosial dalam pendidikan",
+          "produksi gambar dan video secara otomatis"
+        ],
+        "jawaban": "aturan-aturan eksplisit dan representasi pengetahuan"
+      },
+      {
+        "pertanyaan": "Salah satu contoh pengaruh perkembangan AI di sektor industri adalah",
+        "pilihan": [
+          "penghapusan seluruh proses produksi",
+          "penolakan penggunaan data",
+          "pemeliharaan prediktif dan optimasi rantai pasok",
+          "pengurangan kebutuhan analisis sama sekali"
+        ],
+        "jawaban": "pemeliharaan prediktif dan optimasi rantai pasok"
+      },
+      {
+        "pertanyaan": "Salah satu bentuk perkembangan AI dalam pendidikan adalah",
+        "pilihan": [
+          "penghapusan seluruh peran dosen",
+          "munculnya tutor cerdas, analitik pembelajaran, dan penilaian otomatis",
+          "larangan penggunaan teknologi digital",
+          "pembelajaran tanpa interaksi manusia sama sekali"
+        ],
+        "jawaban": "munculnya tutor cerdas, analitik pembelajaran, dan penilaian otomatis"
+      },
+      {
+        "pertanyaan": "Mengapa perkembangan AI di pendidikan tidak dapat disamakan sepenuhnya dengan di industri?",
+        "pilihan": [
+          "Karena pendidikan tidak menggunakan teknologi",
+          "Karena pendidikan hanya berfokus pada efisiensi ekonomi",
+          "Karena pendidikan juga menekankan dimensi pedagogis, etis, dan perkembangan manusia",
+          "Karena industri tidak mengenal AI"
+        ],
+        "jawaban": "Karena pendidikan juga menekankan dimensi pedagogis, etis, dan perkembangan manusia"
+      },
+      {
+        "pertanyaan": "Hubungan antara AI, machine learning, dan deep learning yang paling tepat adalah",
+        "pilihan": [
+          "machine learning adalah bagian dari deep learning, dan deep learning adalah bagian dari internet",
+          "AI adalah cabang dari machine learning",
+          "AI adalah payung besar, machine learning adalah salah satu cabangnya, dan deep learning adalah bagian dari machine learning",
+          "ketiganya tidak memiliki hubungan"
+        ],
+        "jawaban": "AI adalah payung besar, machine learning adalah salah satu cabangnya, dan deep learning adalah bagian dari machine learning"
+      },
+      {
+        "pertanyaan": "Salah satu pelajaran penting dari sejarah perkembangan AI adalah",
+        "pilihan": [
+          "setiap kemajuan teknologi harus diterima tanpa kritik",
+          "AI selalu berkembang secara stabil tanpa hambatan",
+          "perkembangan AI perlu dipahami secara kritis karena dipengaruhi oleh keberhasilan, keterbatasan, dan perubahan paradigma",
+          "AI hanya relevan bagi ilmuwan komputer"
+        ],
+        "jawaban": "perkembangan AI perlu dipahami secara kritis karena dipengaruhi oleh keberhasilan, keterbatasan, dan perubahan paradigma"
+      }
+    ]
+  },
+  {
+    "minggu": 3,
+    "topik": "Prinsip Kerja AI secara Konseptual dan Keterbatasannya",
+    "soal": [
+      {
+        "pertanyaan": "Dalam sistem AI modern, data berfungsi terutama sebagai",
+        "pilihan": [
+          "hiasan sistem",
+          "bahan belajar untuk mengenali pola",
+          "pengganti algoritma",
+          "hasil akhir model"
+        ],
+        "jawaban": "bahan belajar untuk mengenali pola"
+      },
+      {
+        "pertanyaan": "Model AI paling tepat dipahami sebagai",
+        "pilihan": [
+          "perangkat keras untuk menyimpan data",
+          "representasi matematis atau komputasional hasil pembelajaran dari data",
+          "daftar semua referensi ilmiah",
+          "jaringan internet untuk memproses informasi"
+        ],
+        "jawaban": "representasi matematis atau komputasional hasil pembelajaran dari data"
+      },
+      {
+        "pertanyaan": "Perbedaan utama antara algoritma dan model dalam AI adalah",
+        "pilihan": [
+          "algoritma adalah hasil akhir, sedangkan model adalah langkah-langkah pembelajaran",
+          "algoritma dan model adalah istilah yang sama",
+          "algoritma adalah prosedur pembelajaran, sedangkan model adalah hasil yang digunakan untuk inferensi",
+          "algoritma hanya dipakai dalam pendidikan, model hanya dipakai dalam industri"
+        ],
+        "jawaban": "algoritma adalah prosedur pembelajaran, sedangkan model adalah hasil yang digunakan untuk inferensi"
+      },
+      {
+        "pertanyaan": "Machine learning adalah",
+        "pilihan": [
+          "sistem yang hanya bekerja dengan aturan manual",
+          "cabang AI yang memungkinkan sistem belajar dari data",
+          "metode untuk menghindari penggunaan data",
+          "aplikasi untuk membuat slide otomatis"
+        ],
+        "jawaban": "cabang AI yang memungkinkan sistem belajar dari data"
+      },
+      {
+        "pertanyaan": "Supervised learning menggunakan",
+        "pilihan": [
+          "data tanpa label",
+          "data yang selalu berbentuk gambar",
+          "data berlabel untuk melatih model",
+          "data yang tidak perlu diverifikasi"
+        ],
+        "jawaban": "data berlabel untuk melatih model"
+      },
+      {
+        "pertanyaan": "Salah satu contoh unsupervised learning adalah",
+        "pilihan": [
+          "klasifikasi email spam berdasarkan label yang sudah ada",
+          "pengelompokan mahasiswa berdasarkan pola belajar tanpa label awal",
+          "koreksi jawaban esai dengan skor tetap",
+          "penerjemahan bahasa secara manual"
+        ],
+        "jawaban": "pengelompokan mahasiswa berdasarkan pola belajar tanpa label awal"
+      },
+      {
+        "pertanyaan": "Inferensi dalam AI adalah tahap ketika",
+        "pilihan": [
+          "data dikumpulkan dari internet",
+          "model yang telah dilatih digunakan untuk memproses data baru",
+          "algoritma dirancang dari awal",
+          "model dihapus karena sudah selesai digunakan"
+        ],
+        "jawaban": "model yang telah dilatih digunakan untuk memproses data baru"
+      },
+      {
+        "pertanyaan": "Salah satu keterbatasan utama AI adalah",
+        "pilihan": [
+          "AI selalu memahami konteks seperti manusia",
+          "AI sepenuhnya bebas bias",
+          "AI dapat menghasilkan keluaran yang salah tetapi tampak meyakinkan",
+          "AI tidak membutuhkan data sama sekali"
+        ],
+        "jawaban": "AI dapat menghasilkan keluaran yang salah tetapi tampak meyakinkan"
+      },
+      {
+        "pertanyaan": "Bias dalam AI dapat muncul terutama karena",
+        "pilihan": [
+          "sistem selalu objektif",
+          "data yang digunakan tidak representatif atau mengandung ketimpangan",
+          "AI tidak pernah belajar dari data",
+          "semua model AI dirancang tanpa tujuan"
+        ],
+        "jawaban": "data yang digunakan tidak representatif atau mengandung ketimpangan"
+      },
+      {
+        "pertanyaan": "Konsep augmented intelligence menekankan bahwa",
+        "pilihan": [
+          "AI harus menggantikan seluruh keputusan manusia",
+          "manusia tidak lagi dibutuhkan dalam sistem AI",
+          "AI digunakan untuk memperkuat kemampuan manusia, bukan menggantikannya sepenuhnya",
+          "AI hanya relevan untuk industri manufaktur"
+        ],
+        "jawaban": "AI digunakan untuk memperkuat kemampuan manusia, bukan menggantikannya sepenuhnya"
+      }
+    ]
+  },
+  {
+    "minggu": 4,
+    "topik": "Evaluasi Penggunaan Generative AI dalam Pembelajaran",
+    "soal": [
+      {
+        "pertanyaan": "Generative AI adalah teknologi AI yang terutama digunakan untuk",
+        "pilihan": [
+          "hanya menyimpan data",
+          "menghasilkan konten baru seperti teks, gambar, atau audio",
+          "mematikan proses pembelajaran",
+          "menggantikan seluruh buku teks"
+        ],
+        "jawaban": "menghasilkan konten baru seperti teks, gambar, atau audio"
+      },
+      {
+        "pertanyaan": "Perbedaan utama generative AI dengan AI non-generatif adalah",
+        "pilihan": [
+          "AI non-generatif tidak menggunakan komputer",
+          "generative AI menghasilkan konten baru, sedangkan AI non-generatif lebih sering mengklasifikasi atau memprediksi",
+          "generative AI tidak membutuhkan data",
+          "AI non-generatif selalu lebih akurat"
+        ],
+        "jawaban": "generative AI menghasilkan konten baru, sedangkan AI non-generatif lebih sering mengklasifikasi atau memprediksi"
+      },
+      {
+        "pertanyaan": "Dalam konteks pembelajaran, chatbot AI dapat berfungsi sebagai",
+        "pilihan": [
+          "pengganti mutlak dosen",
+          "tutor awal atau alat bantu dialogis untuk mendukung belajar",
+          "alat untuk menghapus semua sumber ilmiah",
+          "penjamin bahwa semua jawaban benar"
+        ],
+        "jawaban": "tutor awal atau alat bantu dialogis untuk mendukung belajar"
+      },
+      {
+        "pertanyaan": "Mengapa keluaran generative AI perlu dievaluasi?",
+        "pilihan": [
+          "Karena semua jawaban AI pasti salah",
+          "Karena AI tidak dapat menghasilkan teks",
+          "Karena jawaban AI dapat tampak meyakinkan tetapi belum tentu akurat",
+          "Karena AI tidak boleh dipakai sama sekali dalam pendidikan"
+        ],
+        "jawaban": "Karena jawaban AI dapat tampak meyakinkan tetapi belum tentu akurat"
+      },
+      {
+        "pertanyaan": "Validitas informasi dalam evaluasi jawaban AI merujuk pada",
+        "pilihan": [
+          "kecepatan jawaban AI",
+          "ketepatan, kebenaran, dan keterandalan informasi",
+          "panjangnya jawaban yang dihasilkan",
+          "jumlah paragraf dalam jawaban"
+        ],
+        "jawaban": "ketepatan, kebenaran, dan keterandalan informasi"
+      },
+      {
+        "pertanyaan": "Salah satu cara utama mengevaluasi jawaban chatbot AI adalah",
+        "pilihan": [
+          "menerima jawaban tanpa pemeriksaan",
+          "membandingkannya dengan sumber ilmiah atau sumber resmi",
+          "menilai dari tampilannya saja",
+          "memilih jawaban yang paling panjang"
+        ],
+        "jawaban": "membandingkannya dengan sumber ilmiah atau sumber resmi"
+      },
+      {
+        "pertanyaan": "Halusinasi dalam generative AI adalah kondisi ketika",
+        "pilihan": [
+          "AI berhenti bekerja total",
+          "AI menghasilkan informasi yang tampak masuk akal tetapi sebenarnya salah atau tidak dapat diverifikasi",
+          "AI hanya menjawab dengan satu kata",
+          "AI selalu menolak pertanyaan pengguna"
+        ],
+        "jawaban": "AI menghasilkan informasi yang tampak masuk akal tetapi sebenarnya salah atau tidak dapat diverifikasi"
+      },
+      {
+        "pertanyaan": "Penggunaan generative AI yang etis dalam tugas akademik menuntut",
+        "pilihan": [
+          "penyerahan penuh seluruh proses berpikir kepada AI",
+          "transparansi penggunaan, verifikasi hasil, dan penghormatan terhadap integritas akademik",
+          "penghapusan semua referensi ilmiah",
+          "penggunaan AI tanpa batasan apa pun"
+        ],
+        "jawaban": "transparansi penggunaan, verifikasi hasil, dan penghormatan terhadap integritas akademik"
+      },
+      {
+        "pertanyaan": "Salah satu kelemahan generative AI dibanding sumber ilmiah langsung adalah",
+        "pilihan": [
+          "AI tidak dapat menulis sama sekali",
+          "AI selalu menampilkan metodologi penelitian lengkap",
+          "AI dapat menyederhanakan berlebihan atau bahkan menghasilkan sitasi palsu",
+          "AI hanya dapat dipakai oleh dosen"
+        ],
+        "jawaban": "AI dapat menyederhanakan berlebihan atau bahkan menghasilkan sitasi palsu"
+      },
+      {
+        "pertanyaan": "Keterampilan utama yang dikembangkan melalui evaluasi generative AI adalah",
+        "pilihan": [
+          "hafalan tanpa analisis",
+          "berpikir kritis, literasi digital, dan tanggung jawab akademik",
+          "ketergantungan penuh pada teknologi",
+          "pengurangan aktivitas reflektif mahasiswa"
+        ],
+        "jawaban": "berpikir kritis, literasi digital, dan tanggung jawab akademik"
+      }
+    ]
+  }
+]
