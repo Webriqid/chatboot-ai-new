@@ -203,6 +203,7 @@
         "jawaban": "perkembangan AI perlu dipahami secara kritis karena dipengaruhi oleh keberhasilan, keterbatasan, dan perubahan paradigma"
       }
     ]
+<<<<<<< HEAD
   },
   {
     "minggu": 3,
@@ -415,5 +416,7 @@
         "jawaban": "berpikir kritis, literasi digital, dan tanggung jawab akademik"
       }
     ]
+=======
+>>>>>>> 48b7d5d464b4284a9f77dee719fedc7edfac676d
   }
 ]
