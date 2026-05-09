@@ -322,5 +322,529 @@
   {
     "pertanyaan": "Apa capaian pembelajaran yang diharapkan dari pertemuan pertama ini?",
     "jawaban": "Pada akhir pertemuan pertama, mahasiswa diharapkan mampu menjelaskan pengertian AI, memahami relevansinya dalam transformasi pendidikan, membedakan orientasi Revolusi Industri 4.0 dan Society 5.0, mengidentifikasi manfaat dan tantangan AI dalam pendidikan, serta mulai membangun sikap kritis dan etis terhadap penggunaan AI dalam konteks akademik dan pendidikan vokasi."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan etika AI?",
+    "jawaban": "Etika AI adalah kajian normatif mengenai bagaimana kecerdasan buatan dirancang, dikembangkan, digunakan, dan dievaluasi agar selaras dengan nilai kemanusiaan, keadilan, tanggung jawab, transparansi, keselamatan, dan kemaslahatan sosial. Dalam konteks pendidikan, etika AI tidak hanya membahas benar atau salah secara teknis, tetapi juga dampak AI terhadap proses belajar, peran dosen, pengalaman mahasiswa, serta integritas akademik."
+  },
+  {
+    "pertanyaan": "Mengapa etika AI menjadi topik penting dalam pendidikan?",
+    "jawaban": "Etika AI menjadi penting dalam pendidikan karena AI tidak lagi sekadar alat teknis, melainkan telah memengaruhi cara mahasiswa belajar, cara dosen memberi umpan balik, cara asesmen dijalankan, dan cara institusi mengelola data. Tanpa kerangka etis, pemanfaatan AI dapat menimbulkan bias, pelanggaran privasi, penyalahgunaan akademik, ketidakadilan, dan ketergantungan yang merugikan perkembangan intelektual mahasiswa."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara etika AI dan integritas akademik?",
+    "jawaban": "Etika AI dan integritas akademik berkaitan erat karena penggunaan AI dalam pembelajaran dan penugasan dapat membantu proses belajar, tetapi juga dapat disalahgunakan untuk plagiarisme, fabrikasi sitasi, pengaburan kontribusi penulis, atau penghindaran proses berpikir akademik. Integritas akademik menuntut kejujuran, tanggung jawab, keterbukaan, dan orisinalitas, sedangkan etika AI memberi kerangka untuk memastikan AI digunakan tanpa merusak nilai-nilai tersebut."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan integritas akademik dalam penggunaan AI?",
+    "jawaban": "Integritas akademik dalam penggunaan AI adalah komitmen untuk menggunakan AI secara jujur, bertanggung jawab, transparan, dan sesuai aturan akademik. Mahasiswa tetap harus menunjukkan proses berpikir, menyebutkan penggunaan AI jika diwajibkan, memverifikasi isi yang dihasilkan, dan tidak menyerahkan keluaran AI mentah sebagai hasil kerja pribadi tanpa pengolahan kritis."
+  },
+  {
+    "pertanyaan": "Mengapa penggunaan AI tanpa aturan yang jelas dapat menimbulkan masalah akademik?",
+    "jawaban": "Penggunaan AI tanpa aturan yang jelas dapat menimbulkan ambiguitas mengenai batas bantuan yang diperbolehkan, bentuk kontribusi mahasiswa, serta standar kejujuran akademik. Akibatnya, mahasiswa dapat menggunakan AI secara berlebihan atau tidak tepat, sementara dosen kesulitan membedakan bantuan sah dan penyalahgunaan."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan bias algoritma?",
+    "jawaban": "Bias algoritma adalah kecenderungan sistem AI menghasilkan keluaran, keputusan, atau rekomendasi yang tidak adil, tidak seimbang, atau merugikan kelompok tertentu karena dipengaruhi oleh data, asumsi model, proses pelabelan, atau desain sistem yang tidak netral. Dalam pendidikan, bias algoritma dapat memengaruhi penilaian, rekomendasi belajar, maupun akses dukungan akademik."
+  },
+  {
+    "pertanyaan": "Bagaimana bias algoritma dapat muncul dalam sistem AI pendidikan?",
+    "jawaban": "Bias algoritma dapat muncul ketika data pelatihan tidak representatif, mengandung stereotip, mengabaikan keragaman pengguna, atau merekam ketimpangan masa lalu. Sistem kemudian belajar dari pola tersebut dan mereproduksinya ke dalam keputusan atau jawaban baru, misalnya dalam rekomendasi materi, sistem evaluasi otomatis, atau analitik pembelajaran."
+  },
+  {
+    "pertanyaan": "Mengapa bias data dapat memperkuat bias algoritma?",
+    "jawaban": "Bias data dapat memperkuat bias algoritma karena model AI mempelajari pola dari data yang tersedia. Jika data mengandung ketidakadilan atau representasi yang timpang, model akan menganggap pola tersebut sebagai dasar yang sah untuk pengambilan keputusan. Karena itu, bias pada data awal dapat diwariskan dan bahkan diperbesar oleh model."
+  },
+  {
+    "pertanyaan": "Apa contoh bias algoritma dalam konteks pendidikan?",
+    "jawaban": "Contoh bias algoritma dalam pendidikan antara lain sistem penilaian otomatis yang lebih akurat untuk gaya bahasa tertentu tetapi tidak adil bagi penulis dari latar berbeda, sistem rekomendasi belajar yang lebih sering mempromosikan materi untuk kelompok mayoritas, atau chatbot yang menghasilkan jawaban bias terkait gender, budaya, atau kemampuan akademik."
+  },
+  {
+    "pertanyaan": "Mengapa isu bias algoritma tidak boleh dianggap sekadar masalah teknis?",
+    "jawaban": "Bias algoritma tidak boleh dianggap sekadar masalah teknis karena dampaknya langsung menyentuh keadilan, kesempatan belajar, dan martabat manusia. Dalam pendidikan, keputusan yang bias dapat memengaruhi persepsi terhadap kemampuan mahasiswa, kualitas pengalaman belajar, dan rasa aman serta inklusivitas lingkungan akademik."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan privasi data dalam penggunaan AI?",
+    "jawaban": "Privasi data adalah perlindungan terhadap informasi pribadi agar tidak dikumpulkan, diproses, disimpan, dibagikan, atau digunakan secara tidak sah atau tanpa persetujuan yang layak. Dalam konteks AI pendidikan, privasi data mencakup perlindungan identitas, rekam jejak belajar, hasil asesmen, interaksi digital, dan informasi pribadi mahasiswa maupun dosen."
+  },
+  {
+    "pertanyaan": "Mengapa privasi data penting dalam pembelajaran berbasis AI?",
+    "jawaban": "Privasi data penting karena sistem AI sering memerlukan data dalam jumlah besar untuk analisis, personalisasi, atau otomatisasi. Jika data mahasiswa digunakan tanpa pengamanan dan tata kelola yang tepat, maka dapat terjadi pelanggaran kerahasiaan, penyalahgunaan informasi, profilisasi berlebihan, atau keputusan otomatis yang merugikan."
+  },
+  {
+    "pertanyaan": "Apa risiko jika data mahasiswa digunakan sembarangan untuk sistem AI?",
+    "jawaban": "Risikonya meliputi kebocoran data, penggunaan data di luar tujuan awal, pemantauan berlebihan, profilisasi tanpa persetujuan, diskriminasi berbasis data, dan hilangnya kepercayaan mahasiswa terhadap institusi pendidikan. Risiko ini menunjukkan bahwa tata kelola data harus menjadi bagian penting dari implementasi AI."
+  },
+  {
+    "pertanyaan": "Bagaimana AI dapat memengaruhi privasi mahasiswa?",
+    "jawaban": "AI dapat memengaruhi privasi mahasiswa melalui pengumpulan data aktivitas belajar, jejak klik, waktu pengerjaan, interaksi forum, hasil tes, rekam diskusi, bahkan pola perilaku digital. Data ini dapat berguna untuk personalisasi, tetapi juga menimbulkan pertanyaan tentang siapa yang mengakses, untuk tujuan apa, dan bagaimana data tersebut dilindungi."
+  },
+  {
+    "pertanyaan": "Apa perbedaan antara penggunaan data untuk pembelajaran dan penyalahgunaan data?",
+    "jawaban": "Penggunaan data untuk pembelajaran dilakukan secara terbatas, relevan, aman, dan sesuai tujuan pendidikan yang jelas. Penyalahgunaan data terjadi ketika data digunakan di luar tujuan tersebut, dibagikan tanpa izin, dipakai untuk kepentingan komersial, atau dimanfaatkan untuk keputusan yang tidak adil tanpa transparansi."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan plagiarisme dalam era AI?",
+    "jawaban": "Plagiarisme dalam era AI adalah pengambilan, penyajian, atau penyerahan gagasan, teks, struktur argumen, atau hasil kerja yang bukan sepenuhnya merupakan hasil intelektual penulis, tanpa pengakuan atau pengolahan yang layak, termasuk ketika keluaran AI diserahkan seolah-olah karya pribadi. Plagiarisme tidak hilang hanya karena sumbernya bukan manusia, sebab inti masalahnya adalah ketidakjujuran akademik."
+  },
+  {
+    "pertanyaan": "Apakah penggunaan AI otomatis termasuk plagiarisme?",
+    "jawaban": "Tidak semua penggunaan AI otomatis termasuk plagiarisme. Penggunaan AI dapat bersifat sah jika dipakai untuk brainstorming, klarifikasi, atau umpan balik awal, lalu diikuti proses berpikir, verifikasi, dan penulisan ulang yang bertanggung jawab sesuai aturan yang berlaku. Namun, jika keluaran AI disalin dan diserahkan tanpa pengakuan atau pengolahan yang memadai, maka hal itu dapat tergolong pelanggaran integritas akademik."
+  },
+  {
+    "pertanyaan": "Mengapa keluaran AI mentah tidak layak langsung dijadikan tugas akademik?",
+    "jawaban": "Keluaran AI mentah tidak layak langsung dijadikan tugas akademik karena belum tentu akurat, dapat mengandung bias atau halusinasi, tidak selalu sesuai konteks, dan tidak mencerminkan proses berpikir mahasiswa. Tugas akademik bertujuan menilai pemahaman, analisis, dan argumentasi mahasiswa, bukan sekadar hasil tekstual yang dihasilkan mesin."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan fabrikasi sitasi oleh AI?",
+    "jawaban": "Fabrikasi sitasi adalah kondisi ketika AI menghasilkan nama penulis, judul artikel, jurnal, tahun, atau detail referensi yang tampak ilmiah tetapi sebenarnya tidak ada atau tidak sesuai. Praktik ini sangat berbahaya dalam tugas akademik karena dapat menyesatkan pembaca dan merusak kredibilitas karya ilmiah."
+  },
+  {
+    "pertanyaan": "Mengapa fabrikasi sitasi termasuk persoalan etika akademik?",
+    "jawaban": "Fabrikasi sitasi termasuk persoalan etika akademik karena referensi adalah dasar pertanggungjawaban ilmiah. Jika sitasi palsu dicantumkan, maka penulis menyajikan legitimasi ilmiah yang tidak nyata. Hal ini merusak kejujuran akademik, ketelusuran sumber, dan kepercayaan terhadap karya ilmiah."
+  },
+  {
+    "pertanyaan": "Apa itu penyalahgunaan AI dalam pendidikan?",
+    "jawaban": "Penyalahgunaan AI dalam pendidikan adalah pemanfaatan AI dengan cara yang bertentangan dengan tujuan pembelajaran, kebijakan akademik, atau nilai etika, misalnya menggunakan AI untuk menyontek, membuat tugas tanpa berpikir, memalsukan sitasi, membocorkan jawaban ujian, atau menghasilkan konten manipulatif yang merugikan proses pendidikan."
+  },
+  {
+    "pertanyaan": "Apa contoh kasus penyalahgunaan AI dalam pendidikan?",
+    "jawaban": "Contoh kasus penyalahgunaan AI antara lain mahasiswa menyerahkan esai buatan AI tanpa revisi dan tanpa pengakuan, penggunaan chatbot saat ujian tertutup, pembuatan referensi palsu, pengunggahan data mahasiswa ke platform AI tanpa izin, serta penggunaan sistem otomatis untuk menilai tanpa memeriksa potensi bias dan kesalahan."
+  },
+  {
+    "pertanyaan": "Mengapa mahasiswa perlu diajak menganalisis studi kasus etika AI?",
+    "jawaban": "Analisis studi kasus membantu mahasiswa memahami bahwa etika AI bukan konsep abstrak, melainkan persoalan nyata yang muncul dalam keputusan sehari-hari di dunia akademik. Dengan studi kasus, mahasiswa belajar menimbang fakta, nilai, risiko, pihak yang terdampak, dan alternatif tindakan secara lebih konkret."
+  },
+  {
+    "pertanyaan": "Apa manfaat pendekatan studi kasus untuk materi etika AI?",
+    "jawaban": "Pendekatan studi kasus membantu mahasiswa menghubungkan teori etika dengan situasi nyata, melatih nalar kritis, memperkuat kemampuan argumentatif, dan mengembangkan sensitivitas moral. Mahasiswa tidak hanya mengetahui definisi etika AI, tetapi juga berlatih mengambil posisi dan memberikan justifikasi yang bertanggung jawab."
+  },
+  {
+    "pertanyaan": "Mengapa AI perlu digunakan secara transparan dalam konteks tugas akademik?",
+    "jawaban": "Transparansi diperlukan agar dosen dapat menilai kontribusi intelektual mahasiswa secara adil, sekaligus memastikan bahwa AI dipakai sebagai alat bantu yang proporsional. Transparansi juga menghindari kesan manipulatif dan menegaskan tanggung jawab pengguna terhadap hasil akhir tugas."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan akuntabilitas manusia dalam penggunaan AI?",
+    "jawaban": "Akuntabilitas manusia berarti bahwa manusia tetap bertanggung jawab atas keputusan, tindakan, dan keluaran yang melibatkan AI. Dalam pendidikan, dosen tetap bertanggung jawab atas desain pembelajaran dan penilaian, sedangkan mahasiswa bertanggung jawab atas isi tugas, validitas informasi, dan kejujuran proses akademiknya."
+  },
+  {
+    "pertanyaan": "Mengapa AI tidak boleh menjadi pengganti tanggung jawab akademik manusia?",
+    "jawaban": "AI tidak boleh menjadi pengganti tanggung jawab akademik karena pendidikan bertujuan membangun kapasitas berpikir, refleksi, dan pertimbangan etis manusia. Jika tanggung jawab ini dialihkan ke mesin, maka proses pendidikan kehilangan dimensi pembentukan intelektual dan moral yang esensial."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara etika AI dan keadilan dalam pendidikan?",
+    "jawaban": "Etika AI berkaitan dengan keadilan karena penggunaan AI dapat memengaruhi siapa yang mendapat akses, rekomendasi, penilaian, dan kesempatan belajar. Sistem yang bias atau tidak transparan dapat memperburuk ketimpangan. Karena itu, etika AI menuntut agar desain dan penerapannya mempertimbangkan keadilan distributif dan prosedural."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan prinsip fairness dalam AI?",
+    "jawaban": "Prinsip fairness atau keadilan dalam AI adalah upaya memastikan bahwa sistem tidak secara sistematis menguntungkan atau merugikan individu atau kelompok tertentu tanpa alasan yang sah. Dalam pendidikan, fairness berarti AI seharusnya mendukung perlakuan yang adil, bukan memperkuat bias atau diskriminasi."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan prinsip transparency dalam AI?",
+    "jawaban": "Prinsip transparency berarti pengguna perlu mengetahui bahwa mereka berinteraksi dengan sistem AI, memahami secara umum bagaimana sistem digunakan, serta memiliki akses pada informasi yang cukup untuk menilai keputusan atau keluaran sistem. Transparansi penting agar AI tidak bekerja secara gelap tanpa pengawasan atau pemahaman pengguna."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan prinsip accountability dalam AI?",
+    "jawaban": "Prinsip accountability berarti harus ada pihak manusia atau institusi yang bertanggung jawab atas desain, implementasi, penggunaan, dan dampak sistem AI. Jika terjadi kesalahan, bias, atau kerugian, tanggung jawab tidak boleh dilemparkan semata-mata kepada mesin."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan prinsip beneficence dalam etika AI?",
+    "jawaban": "Beneficence adalah prinsip bahwa AI harus dikembangkan dan digunakan untuk menghasilkan manfaat, meningkatkan kesejahteraan, dan mendukung tujuan yang baik bagi manusia. Dalam pendidikan, ini berarti AI harus membantu pembelajaran, bukan sekadar mengejar efisiensi tanpa mempertimbangkan kualitas dan dampaknya."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan prinsip non-maleficence dalam etika AI?",
+    "jawaban": "Non-maleficence adalah prinsip untuk menghindari atau meminimalkan bahaya. Dalam AI pendidikan, prinsip ini mengingatkan bahwa penggunaan AI tidak boleh menimbulkan kerugian yang dapat dihindari, seperti diskriminasi, pelanggaran privasi, ketergantungan berlebihan, atau keputusan yang salah namun berdampak besar pada mahasiswa."
+  },
+  {
+    "pertanyaan": "Mengapa kebijakan institusi penting dalam penggunaan AI?",
+    "jawaban": "Kebijakan institusi penting karena memberikan batas, pedoman, dan standar penggunaan AI yang sesuai dengan nilai akademik setempat. Tanpa kebijakan, pemanfaatan AI cenderung tidak seragam, rawan disalahpahami, dan dapat menimbulkan konflik terkait kejujuran, penilaian, serta hak dan kewajiban pengguna."
+  },
+  {
+    "pertanyaan": "Apa peran dosen dalam menjaga etika penggunaan AI?",
+    "jawaban": "Dosen berperan sebagai perancang aturan pembelajaran, pemberi contoh penggunaan AI yang tepat, penjelas batas pemanfaatan AI, fasilitator diskusi etika, dan evaluator kualitas serta kejujuran tugas mahasiswa. Dosen juga perlu menciptakan lingkungan yang mendorong penggunaan AI secara bertanggung jawab, bukan sekadar melarang atau menerima tanpa syarat."
+  },
+  {
+    "pertanyaan": "Apa peran mahasiswa dalam menjaga integritas akademik saat menggunakan AI?",
+    "jawaban": "Mahasiswa berperan untuk tetap menjadi subjek aktif pembelajaran, memverifikasi keluaran AI, mematuhi aturan dosen dan institusi, bersikap jujur tentang penggunaan AI, serta memastikan bahwa tugas yang diserahkan benar-benar mencerminkan pemahaman dan olahan intelektualnya sendiri."
+  },
+  {
+    "pertanyaan": "Mengapa literasi AI penting untuk etika penggunaan AI?",
+    "jawaban": "Literasi AI penting karena seseorang tidak dapat menggunakan AI secara etis jika ia tidak memahami cara kerja, keterbatasan, risiko, dan dampak sosialnya. Literasi AI memungkinkan pengguna menilai kapan AI layak digunakan, kapan harus diverifikasi, dan kapan sebaiknya tidak digunakan."
+  },
+  {
+    "pertanyaan": "Bagaimana hubungan antara literasi AI dan pencegahan halusinasi AI?",
+    "jawaban": "Semakin baik literasi AI seseorang, semakin besar kemampuannya mengenali bahwa keluaran AI tidak selalu benar. Dengan demikian, ia lebih siap memeriksa fakta, menelusuri sumber, dan menahan diri untuk tidak langsung mempercayai jawaban yang tampak meyakinkan. Literasi AI menjadi benteng awal terhadap bahaya halusinasi."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan penggunaan AI yang bertanggung jawab?",
+    "jawaban": "Penggunaan AI yang bertanggung jawab adalah penggunaan yang sadar tujuan, proporsional, transparan, dapat dipertanggungjawabkan, menghormati privasi, menjaga integritas akademik, dan meminimalkan risiko. Dalam pendidikan, AI seharusnya dipakai untuk mendukung pembelajaran aktif, bukan mematikan otonomi berpikir mahasiswa."
+  },
+  {
+    "pertanyaan": "Mengapa AI perlu diposisikan sebagai mitra belajar, bukan pengganti belajar?",
+    "jawaban": "AI perlu diposisikan sebagai mitra belajar karena fungsi utamanya adalah membantu eksplorasi, klarifikasi, umpan balik awal, dan efisiensi tertentu. Jika AI dijadikan pengganti belajar, maka mahasiswa kehilangan kesempatan membangun pemahaman, argumentasi, dan refleksi yang justru menjadi tujuan utama pendidikan tinggi."
+  },
+  {
+    "pertanyaan": "Apa risiko ketergantungan berlebihan pada AI bagi mahasiswa?",
+    "jawaban": "Ketergantungan berlebihan dapat menurunkan kemampuan berpikir kritis, melemahkan keterampilan menulis dan analisis, mengurangi daya tahan intelektual, serta membuat mahasiswa cenderung mencari jawaban instan tanpa proses pemahaman. Dalam jangka panjang, ketergantungan ini bertentangan dengan tujuan pendidikan yang membentuk kemandirian belajar."
+  },
+  {
+    "pertanyaan": "Mengapa etika AI juga menyangkut relasi kekuasaan dan akses teknologi?",
+    "jawaban": "Etika AI tidak hanya menyangkut benar-salah individu, tetapi juga siapa yang memiliki akses terhadap alat AI, siapa yang diuntungkan, siapa yang dirugikan, dan siapa yang menentukan aturan permainan. Dalam pendidikan, ketimpangan akses teknologi dapat menimbulkan ketidakadilan baru jika tidak diantisipasi secara institusional."
+  },
+  {
+    "pertanyaan": "Bagaimana institusi dapat meminimalkan penyalahgunaan AI dalam pendidikan?",
+    "jawaban": "Institusi dapat meminimalkan penyalahgunaan AI dengan menyusun kebijakan yang jelas, memberikan edukasi tentang literasi dan etika AI, mendesain asesmen yang lebih menuntut pemahaman, membangun budaya akademik yang jujur, dan menyediakan mekanisme konsultasi bagi dosen serta mahasiswa terkait penggunaan AI."
+  },
+  {
+    "pertanyaan": "Mengapa desain asesmen perlu diperbarui pada era AI?",
+    "jawaban": "Desain asesmen perlu diperbarui karena tugas yang hanya menuntut reproduksi informasi semakin mudah dikerjakan oleh AI. Agar asesmen tetap bermakna, dosen perlu lebih menekankan analisis, refleksi, argumentasi, aplikasi kontekstual, dan dokumentasi proses berpikir mahasiswa."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara AI dan orisinalitas karya ilmiah?",
+    "jawaban": "AI menantang pemahaman tradisional tentang orisinalitas karena ia dapat membantu menghasilkan teks dengan cepat. Namun, orisinalitas karya ilmiah tetap terletak pada gagasan, penalaran, struktur argumentasi, pemilihan bukti, dan tanggung jawab ilmiah penulis. Karena itu, bantuan AI tidak boleh menghapus kontribusi intelektual manusia."
+  },
+  {
+    "pertanyaan": "Bagaimana cara membedakan bantuan AI yang etis dan yang tidak etis?",
+    "jawaban": "Bantuan AI yang etis biasanya bersifat mendukung, misalnya untuk brainstorming, perbaikan bahasa, atau klarifikasi awal, sementara pengguna tetap memverifikasi dan mengolah hasilnya sendiri. Bantuan yang tidak etis terjadi ketika AI digunakan untuk menggantikan proses inti pembelajaran atau untuk mengelabui dosen tentang siapa sesungguhnya penghasil karya tersebut."
+  },
+  {
+    "pertanyaan": "Apa yang sebaiknya dilakukan ketika AI menghasilkan jawaban yang meragukan secara etis?",
+    "jawaban": "Pengguna sebaiknya menghentikan penerimaan pasif atas jawaban tersebut, memverifikasinya dengan sumber tepercaya, menilai potensi dampaknya, dan mempertimbangkan apakah jawaban itu layak digunakan. Jika menyangkut keputusan pembelajaran atau penilaian, pengguna juga perlu berkonsultasi dengan dosen atau pihak terkait."
+  },
+  {
+    "pertanyaan": "Mengapa prinsip kehati-hatian penting dalam penggunaan AI?",
+    "jawaban": "Prinsip kehati-hatian penting karena AI adalah teknologi yang kuat namun tidak sempurna. Dalam situasi yang berdampak pada nilai, reputasi, atau hak mahasiswa, kesalahan kecil sekalipun dapat berakibat besar. Karena itu, AI perlu digunakan dengan pengawasan, verifikasi, dan pembatasan yang proporsional."
+  },
+  {
+    "pertanyaan": "Apa pesan utama etika AI bagi mahasiswa pendidikan?",
+    "jawaban": "Pesan utamanya adalah bahwa AI harus dipahami sebagai teknologi yang bermanfaat tetapi tidak netral, sehingga penggunaannya menuntut kejujuran, tanggung jawab, verifikasi, refleksi, dan kesadaran atas dampaknya pada orang lain. Mahasiswa pendidikan perlu mengembangkan kompetensi bukan hanya untuk memakai AI, tetapi juga untuk mengarahkannya secara etis dalam praktik pembelajaran."
+  },
+  {
+    "pertanyaan": "Apa capaian pembelajaran yang diharapkan dari pertemuan kelima ini?",
+    "jawaban": "Pada akhir pertemuan kelima, mahasiswa diharapkan mampu mengidentifikasi isu etika dan integritas akademik dalam penggunaan AI, menganalisis studi kasus penyalahgunaan AI dalam pendidikan, menjelaskan risiko bias algoritma, privasi data, dan plagiarisme, serta menunjukkan sikap kritis dan bertanggung jawab dalam memanfaatkan AI di lingkungan akademik."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan Artificial Intelligence in Education atau AIED?",
+    "jawaban": "Artificial Intelligence in Education atau AIED adalah bidang yang secara khusus mengkaji, merancang, mengembangkan, dan mengevaluasi penggunaan kecerdasan buatan untuk mendukung proses belajar, mengajar, asesmen, dan pengelolaan pembelajaran. AIED tidak hanya berfokus pada teknologi, tetapi juga pada bagaimana teknologi tersebut dapat digunakan secara pedagogis, efektif, dan etis dalam konteks pendidikan."
+  },
+  {
+    "pertanyaan": "Mengapa AIED perlu dipahami sebagai bidang yang berbeda dari AI secara umum?",
+    "jawaban": "AI secara umum mencakup beragam aplikasi di berbagai sektor, sedangkan AIED berfokus khusus pada konteks pendidikan. Karena itu, AIED menuntut integrasi antara pengetahuan teknis AI dengan teori belajar, desain pembelajaran, asesmen, interaksi guru-siswa, dan tujuan pendidikan yang lebih luas."
+  },
+  {
+    "pertanyaan": "Apa tujuan utama pengembangan AIED?",
+    "jawaban": "Tujuan utama AIED adalah meningkatkan kualitas pembelajaran melalui dukungan yang lebih personal, adaptif, responsif, dan berbasis data. AIED diharapkan membantu peserta didik belajar lebih efektif serta membantu guru dan institusi mengambil keputusan yang lebih tepat untuk mendukung proses belajar."
+  },
+  {
+    "pertanyaan": "Mengapa AIED penting dalam pendidikan masa kini?",
+    "jawaban": "AIED penting karena pendidikan menghadapi kebutuhan akan pembelajaran yang lebih personal, fleksibel, dan berbasis bukti. Dengan meningkatnya keragaman kebutuhan peserta didik dan kompleksitas lingkungan belajar digital, AIED menawarkan pendekatan yang dapat menyesuaikan dukungan belajar secara lebih spesifik dibanding pembelajaran seragam."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara AIED dan transformasi pendidikan?",
+    "jawaban": "AIED merupakan salah satu motor transformasi pendidikan karena memungkinkan perubahan dari pembelajaran yang seragam menuju pembelajaran yang lebih adaptif, berpusat pada peserta didik, dan berbasis analisis data. Melalui AIED, teknologi tidak hanya menjadi media, tetapi juga menjadi sistem pendukung keputusan pedagogis."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan Intelligent Tutoring System atau ITS?",
+    "jawaban": "Intelligent Tutoring System atau ITS adalah sistem berbasis AI yang dirancang untuk mensimulasikan sebagian fungsi tutor manusia, terutama dalam memberikan aktivitas belajar yang sesuai, mendiagnosis kesalahan, dan menyediakan umpan balik yang tepat waktu dan tertarget. ITS bertujuan menghadirkan pengalaman pembelajaran individual yang mendekati tutoring satu-satu."
+  },
+  {
+    "pertanyaan": "Mengapa ITS dianggap penting dalam AIED?",
+    "jawaban": "ITS dianggap penting karena ia menawarkan cara untuk mendekatkan manfaat pembelajaran individual kepada lebih banyak peserta didik. Dalam kondisi ketika tutor manusia satu-satu tidak selalu tersedia atau terjangkau, ITS menjadi salah satu bentuk AIED yang paling langsung mendukung pembelajaran personal."
+  },
+  {
+    "pertanyaan": "Bagaimana cara kerja ITS secara umum?",
+    "jawaban": "Secara umum, ITS bekerja dengan memodelkan pengetahuan domain, memantau respons peserta didik, mendiagnosis kesalahan atau miskonsepsi, lalu memilih materi, petunjuk, atau umpan balik yang paling sesuai. Sistem ini biasanya memadukan model domain, model pembelajar, dan strategi pedagogis untuk menentukan tindakan selanjutnya."
+  },
+  {
+    "pertanyaan": "Apa perbedaan ITS dengan chatbot pendidikan biasa?",
+    "jawaban": "Chatbot pendidikan biasa umumnya berfokus pada pemberian informasi atau respons percakapan terhadap pertanyaan pengguna. ITS lebih jauh dari itu, karena ia dirancang untuk memodelkan proses belajar, menilai pemahaman, menyesuaikan urutan instruksi, dan memberikan scaffolding pedagogis secara lebih sistematis."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan adaptive learning?",
+    "jawaban": "Adaptive learning adalah pendekatan pembelajaran yang menyesuaikan materi, urutan aktivitas, tingkat kesulitan, bentuk dukungan, atau kecepatan belajar berdasarkan kebutuhan, performa, preferensi, atau kondisi peserta didik. Dalam konteks AIED, adaptive learning sering diwujudkan melalui sistem yang menganalisis data belajar secara berkelanjutan."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara adaptive learning dan personalisasi pembelajaran?",
+    "jawaban": "Adaptive learning merupakan salah satu mekanisme utama untuk mewujudkan personalisasi pembelajaran. Personalisasi berarti pembelajaran disesuaikan dengan karakteristik peserta didik, sedangkan adaptive learning adalah cara sistem melakukan penyesuaian tersebut secara dinamis berdasarkan data dan respons belajar."
+  },
+  {
+    "pertanyaan": "Mengapa adaptive learning relevan bagi pendidikan vokasi?",
+    "jawaban": "Adaptive learning relevan bagi pendidikan vokasi karena peserta didik sering memiliki tingkat kesiapan, latar belakang, dan kecepatan belajar yang beragam. Pendekatan adaptif memungkinkan sistem memberikan dukungan yang lebih tepat sasaran sehingga pembelajaran keterampilan dan kompetensi dapat berlangsung lebih efektif."
+  },
+  {
+    "pertanyaan": "Apa saja komponen utama dalam ITS modern?",
+    "jawaban": "ITS modern umumnya memiliki beberapa komponen utama, yaitu model domain untuk merepresentasikan materi atau kompetensi, model pembelajar untuk menggambarkan kondisi pengetahuan dan kebutuhan peserta didik, model pedagogis untuk menentukan strategi instruksional, serta antarmuka pengguna untuk menyajikan interaksi belajar."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan learner model dalam AIED?",
+    "jawaban": "Learner model adalah representasi sistematis mengenai kondisi pembelajar yang digunakan sistem AI untuk mengambil keputusan pembelajaran. Model ini dapat mencakup tingkat penguasaan materi, pola kesalahan, kebutuhan kognitif, motivasi, keterlibatan, atau bahkan kondisi afektif tertentu."
+  },
+  {
+    "pertanyaan": "Apa manfaat learner model dalam sistem AIED?",
+    "jawaban": "Learner model membantu sistem memberikan dukungan yang lebih tepat karena keputusan instruksional didasarkan pada kondisi aktual pembelajar, bukan asumsi umum. Dengan learner model, sistem dapat mengenali miskonsepsi, memilih intervensi yang sesuai, dan menyesuaikan materi secara lebih individual."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan scaffolding dalam ITS?",
+    "jawaban": "Scaffolding adalah dukungan bertahap yang diberikan untuk membantu peserta didik menyelesaikan tugas, memecahkan masalah, atau mencapai tujuan belajar, dengan pengurangan bantuan secara perlahan ketika kemampuan peserta didik meningkat. Dalam ITS, scaffolding diwujudkan melalui petunjuk, umpan balik, atau penyesuaian tantangan."
+  },
+  {
+    "pertanyaan": "Mengapa umpan balik penting dalam AIED?",
+    "jawaban": "Umpan balik penting karena membantu peserta didik memahami letak kesalahan, memperbaiki strategi, dan memperdalam pemahaman. Dalam AIED, umpan balik dapat diberikan secara cepat, spesifik, dan adaptif, sehingga proses belajar menjadi lebih responsif terhadap kebutuhan peserta didik."
+  },
+  {
+    "pertanyaan": "Apa kelebihan AIED dibanding pembelajaran digital biasa?",
+    "jawaban": "Kelebihan AIED dibanding pembelajaran digital biasa terletak pada kemampuannya untuk menafsirkan data belajar, memodelkan pembelajar, menyesuaikan pengalaman belajar, dan memberikan intervensi yang lebih cerdas. Pembelajaran digital biasa mungkin hanya menyajikan materi, sedangkan AIED dapat turut mengambil keputusan instruksional."
+  },
+  {
+    "pertanyaan": "Apa contoh penerapan AIED dalam pembelajaran?",
+    "jawaban": "Contoh penerapan AIED meliputi Intelligent Tutoring Systems, aplikasi pembelajaran bahasa dengan jalur instruksi bertahap dan umpan balik individual, sistem pemantauan forum belajar, continuous assessment, AI learning companions, serta AI teaching assistants yang membantu guru."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan AI learning companions?",
+    "jawaban": "AI learning companions adalah sistem AI yang dirancang untuk mendampingi proses belajar peserta didik secara lebih berkelanjutan, bahkan berpotensi lintas waktu. Sistem ini dapat berperan sebagai pendamping belajar yang membantu klarifikasi, memberi saran, atau memfasilitasi refleksi pembelajar."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan AI teaching assistants?",
+    "jawaban": "AI teaching assistants adalah sistem AI yang dirancang untuk membantu guru atau dosen dalam tugas-tugas tertentu, seperti menjawab pertanyaan rutin, merangkum pola kesulitan siswa, atau mendukung penyiapan bahan dan umpan balik. Namun, sistem ini tidak menggantikan peran pedagogis pendidik."
+  },
+  {
+    "pertanyaan": "Apa manfaat AIED bagi peserta didik?",
+    "jawaban": "Bagi peserta didik, AIED dapat menyediakan dukungan belajar yang lebih personal, umpan balik yang lebih cepat, aktivitas yang lebih sesuai dengan kebutuhan, serta peluang pembelajaran yang lebih fleksibel. AIED juga dapat membantu peserta didik mengembangkan regulasi diri jika dirancang dengan baik."
+  },
+  {
+    "pertanyaan": "Apa manfaat AIED bagi pendidik?",
+    "jawaban": "Bagi pendidik, AIED dapat membantu mengidentifikasi kesulitan belajar, memantau progres, mengefisienkan sebagian tugas rutin, dan menyediakan data untuk perbaikan pembelajaran. AIED juga dapat menjadi sumber wawasan pedagogis tambahan, meskipun keputusan akhir tetap harus berada pada pendidik."
+  },
+  {
+    "pertanyaan": "Apa manfaat AIED bagi institusi pendidikan?",
+    "jawaban": "Bagi institusi, AIED dapat mendukung pemantauan capaian belajar, personalisasi layanan akademik, pengembangan inovasi pembelajaran, dan penggunaan data yang lebih efektif untuk peningkatan mutu. Namun, manfaat tersebut hanya optimal bila tata kelola, etika, dan kualitas implementasinya terjaga."
+  },
+  {
+    "pertanyaan": "Mengapa one-to-one tutoring sering dijadikan acuan dalam AIED?",
+    "jawaban": "One-to-one tutoring sering dijadikan acuan karena secara luas dipandang sangat efektif dalam pembelajaran. AIED, khususnya ITS, berupaya mendekatkan keunggulan tutoring individual itu kepada lebih banyak peserta didik, walaupun tentu tidak identik sepenuhnya dengan relasi manusiawi tutor dan siswa."
+  },
+  {
+    "pertanyaan": "Apa keterbatasan ITS dibanding tutor manusia?",
+    "jawaban": "ITS memiliki keterbatasan dalam memahami konteks sosial, emosi, nuansa komunikasi, dan pertimbangan pedagogis yang sangat kompleks seperti yang dimiliki tutor manusia. Sistem juga dapat terbatas oleh model yang digunakan, cakupan materi, dan data yang tersedia."
+  },
+  {
+    "pertanyaan": "Mengapa AIED tidak boleh dipahami sebagai pengganti guru?",
+    "jawaban": "AIED tidak boleh dipahami sebagai pengganti guru karena pendidikan melibatkan lebih dari sekadar penyampaian konten atau respons terhadap kesalahan. Guru berperan dalam membangun relasi, empati, motivasi, penilaian nilai, dan keputusan kontekstual yang tidak dapat sepenuhnya direduksi menjadi proses algoritmik."
+  },
+  {
+    "pertanyaan": "Apa tantangan utama dalam penerapan AIED?",
+    "jawaban": "Tantangan utama dalam penerapan AIED meliputi validitas pedagogis, kualitas data, privasi, bias algoritma, keterbacaan keputusan sistem, kesiapan guru, ketimpangan akses teknologi, dan risiko adopsi yang terlalu didorong oleh hype ketimbang kebutuhan pendidikan yang nyata."
+  },
+  {
+    "pertanyaan": "Mengapa aspek pedagogis harus menjadi pusat dalam AIED?",
+    "jawaban": "Aspek pedagogis harus menjadi pusat karena tujuan utama pendidikan adalah pembelajaran bermakna, bukan sekadar efisiensi teknologi. Jika AIED dikembangkan tanpa pijakan pedagogis yang kuat, maka sistem mungkin canggih secara teknis tetapi tidak efektif atau bahkan merugikan proses belajar."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan educational data mining dalam konteks AIED?",
+    "jawaban": "Educational data mining adalah pengembangan dan penggunaan metode untuk menganalisis serta menafsirkan data besar yang dihasilkan dari sistem pembelajaran berbasis komputer dan sistem administrasi pendidikan. Dalam AIED, hasil analisis ini dapat digunakan untuk memahami pola belajar dan mendukung pengambilan keputusan instruksional."
+  },
+  {
+    "pertanyaan": "Bagaimana machine learning digunakan dalam ITS modern?",
+    "jawaban": "Dalam ITS modern, machine learning digunakan untuk mempelajari pola belajar, memperkirakan kebutuhan peserta didik, dan memilih konten atau intervensi yang sesuai. Namun, pendekatan ini juga dapat menimbulkan tantangan karena alasan di balik keputusan sistem tidak selalu mudah dijelaskan."
+  },
+  {
+    "pertanyaan": "Apa kelebihan model-based adaptive systems dalam AIED?",
+    "jawaban": "Model-based adaptive systems memiliki kelebihan karena rasional di balik keputusan sistem dapat dibuat lebih eksplisit dan lebih mudah dipahami oleh manusia. Hal ini penting dalam pendidikan, karena guru dan pengembang perlu memahami mengapa sistem merekomendasikan langkah tertentu."
+  },
+  {
+    "pertanyaan": "Apa risiko jika keputusan AIED tidak dapat dijelaskan?",
+    "jawaban": "Jika keputusan AIED tidak dapat dijelaskan, maka guru dan peserta didik akan sulit menilai apakah sistem bertindak secara tepat, adil, dan sesuai tujuan pembelajaran. Kurangnya keterjelasan juga dapat mengurangi kepercayaan terhadap sistem dan mempersulit evaluasi pedagogis."
+  },
+  {
+    "pertanyaan": "Bagaimana AIED dapat mendukung self-regulated learning?",
+    "jawaban": "AIED dapat mendukung self-regulated learning dengan memberi umpan balik tentang progres, menyediakan representasi kondisi belajar, memberi petunjuk kapan harus meninjau materi, dan membantu peserta didik merefleksikan strategi belajarnya. Dengan desain yang tepat, sistem dapat memperkuat kemandirian, bukan ketergantungan."
+  },
+  {
+    "pertanyaan": "Apa hubungan antara AIED dan metakognisi?",
+    "jawaban": "AIED dapat mendukung metakognisi dengan membantu peserta didik menyadari apa yang telah dipahami, apa yang belum dipahami, dan strategi apa yang sebaiknya digunakan selanjutnya. Beberapa sistem adaptif bahkan dirancang untuk memunculkan refleksi diri dan kesadaran belajar."
+  },
+  {
+    "pertanyaan": "Mengapa adaptive learning harus digunakan secara hati-hati?",
+    "jawaban": "Adaptive learning harus digunakan secara hati-hati karena personalisasi yang terlalu sempit dapat membatasi eksplorasi, menurunkan paparan terhadap tantangan yang bervariasi, atau memperkuat asumsi yang belum tentu tepat tentang pembelajar. Karena itu, sistem adaptif perlu diawasi dan dievaluasi secara pedagogis."
+  },
+  {
+    "pertanyaan": "Apa perbedaan antara personalisasi yang mendukung dan personalisasi yang membatasi?",
+    "jawaban": "Personalisasi yang mendukung membantu peserta didik memperoleh bantuan yang sesuai tanpa menutup peluang belajar lain, sedangkan personalisasi yang membatasi justru dapat mempersempit pengalaman belajar, mengunci siswa pada jalur tertentu, atau mengasumsikan kemampuan secara terlalu kaku berdasarkan data sebelumnya."
+  },
+  {
+    "pertanyaan": "Mengapa data privasi tetap menjadi isu penting dalam AIED?",
+    "jawaban": "Data privasi tetap penting karena AIED sering mengandalkan data detail tentang performa, interaksi, dan perilaku belajar peserta didik. Jika data ini tidak dikelola dengan aman dan etis, maka risiko pelanggaran privasi, profilisasi, dan penyalahgunaan informasi akan meningkat."
+  },
+  {
+    "pertanyaan": "Bagaimana AIED berhubungan dengan asesmen berkelanjutan?",
+    "jawaban": "AIED berhubungan dengan asesmen berkelanjutan karena sistem dapat memantau proses belajar secara real time dan memberikan gambaran capaian kompetensi secara lebih terus-menerus, bukan hanya melalui tes sesaat. Pendekatan ini berpotensi memperkaya evaluasi, selama interpretasinya tetap melibatkan manusia."
+  },
+  {
+    "pertanyaan": "Apa peluang AIED untuk masa depan pendidikan?",
+    "jawaban": "AIED memiliki peluang besar untuk mendukung pembelajaran yang lebih personal, inklusif, berbasis data, dan fleksibel. Bidang ini juga berpotensi mengembangkan pendamping belajar jangka panjang, sistem asesmen formatif yang lebih kaya, dan dukungan yang lebih cerdas bagi guru."
+  },
+  {
+    "pertanyaan": "Apa bahaya jika AIED dipahami secara terlalu optimistis?",
+    "jawaban": "Jika AIED dipahami terlalu optimistis, maka institusi dapat terjebak pada hype teknologi dan mengabaikan keterbatasan sistem, kebutuhan pedagogis, kesiapan pengguna, dan isu etika. Sikap kritis diperlukan agar AIED tidak diadopsi hanya karena terlihat inovatif, tetapi benar-benar memberi manfaat pendidikan."
+  },
+  {
+    "pertanyaan": "Bagaimana seharusnya mahasiswa mengkaji artikel ilmiah tentang AIED?",
+    "jawaban": "Mahasiswa seharusnya mengkaji artikel ilmiah tentang AIED dengan menelaah tujuan penelitian, konteks penerapan, jenis sistem yang dibahas, manfaat yang diklaim, data atau bukti yang digunakan, keterbatasan yang diakui, serta implikasi pedagogisnya. Kajian tidak cukup berhenti pada deskripsi teknologi, tetapi harus mencakup analisis kritis."
+  },
+  {
+    "pertanyaan": "Apa pertanyaan kritis yang penting diajukan saat menganalisis AIED?",
+    "jawaban": "Pertanyaan kritis yang penting antara lain: masalah pendidikan apa yang ingin diselesaikan, bagaimana sistem mengambil keputusan, data apa yang digunakan, siapa yang diuntungkan, apa keterbatasannya, bagaimana peran guru diposisikan, dan apakah sistem ini benar-benar meningkatkan kualitas belajar."
+  },
+  {
+    "pertanyaan": "Mengapa AIED perlu dianalisis dari sudut pandang guru dan peserta didik?",
+    "jawaban": "AIED perlu dianalisis dari kedua sudut pandang itu karena sistem pendidikan tidak hanya soal kinerja teknologi, tetapi juga pengalaman pengguna. Sistem yang efektif secara teknis belum tentu diterima atau bermanfaat jika tidak sesuai dengan kebutuhan guru dan peserta didik."
+  },
+  {
+    "pertanyaan": "Apa pesan utama AIED bagi calon pendidik?",
+    "jawaban": "Pesan utamanya adalah bahwa AI dapat menjadi alat yang sangat berguna untuk mendukung pembelajaran, tetapi nilai pendidik tetap sentral. Calon pendidik perlu memahami potensi, batasan, dan implikasi pedagogis AIED agar mampu memanfaatkannya secara kritis, etis, dan relevan."
+  },
+  {
+    "pertanyaan": "Apa capaian pembelajaran yang diharapkan dari pertemuan keenam ini?",
+    "jawaban": "Pada akhir pertemuan keenam, mahasiswa diharapkan mampu menjelaskan konsep Artificial Intelligence in Education, menganalisis penerapan Intelligent Tutoring System dan adaptive learning, menilai manfaat serta tantangan AIED dalam pendidikan, dan menunjukkan kemampuan membaca serta mengkritisi artikel ilmiah tentang AI dalam pendidikan."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan AI dalam asesmen pembelajaran?",
+    "jawaban": "AI dalam asesmen pembelajaran adalah pemanfaatan teknologi kecerdasan buatan untuk membantu proses penilaian belajar, seperti membuat soal, memeriksa jawaban, memberi umpan balik, menganalisis hasil belajar, dan mengidentifikasi kebutuhan belajar peserta didik. AI tidak menggantikan peran guru sepenuhnya, tetapi menjadi alat bantu agar asesmen lebih cepat, terarah, dan berbasis data."
+  },
+  {
+    "pertanyaan": "Apa tujuan penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Tujuan penggunaan AI dalam asesmen pembelajaran adalah membantu guru memperoleh informasi yang lebih cepat dan akurat tentang capaian belajar peserta didik, memberikan umpan balik yang lebih personal, mendeteksi kesulitan belajar, serta mendukung pengambilan keputusan dalam perbaikan pembelajaran."
+  },
+  {
+    "pertanyaan": "Apa perbedaan asesmen tradisional dan asesmen berbasis AI?",
+    "jawaban": "Asesmen tradisional umumnya dilakukan secara manual oleh guru, misalnya memeriksa tugas, kuis, atau ujian satu per satu. Asesmen berbasis AI menggunakan sistem komputasi untuk membantu sebagian proses tersebut, seperti koreksi otomatis, analisis pola jawaban, rekomendasi tindak lanjut, dan pemberian umpan balik cepat. Namun, validasi akhir tetap perlu dilakukan oleh guru."
+  },
+  {
+    "pertanyaan": "Apa saja bentuk penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Bentuk penggunaan AI dalam asesmen pembelajaran antara lain pembuatan soal otomatis, pemeriksaan jawaban pilihan ganda, pemeriksaan esai berbantuan AI, analisis hasil belajar, deteksi plagiarisme, pemberian umpan balik otomatis, rekomendasi materi remedial, dan pemantauan perkembangan belajar peserta didik."
+  },
+  {
+    "pertanyaan": "Apa itu automatic grading?",
+    "jawaban": "Automatic grading adalah proses pemeriksaan atau penilaian jawaban peserta didik secara otomatis menggunakan sistem digital atau AI. Sistem ini dapat digunakan untuk menilai soal pilihan ganda, isian singkat, bahkan esai tertentu. Meskipun demikian, untuk jawaban terbuka yang kompleks, guru tetap perlu meninjau hasil penilaian agar adil dan sesuai konteks."
+  },
+  {
+    "pertanyaan": "Apakah AI dapat menilai jawaban esai?",
+    "jawaban": "AI dapat membantu menilai jawaban esai dengan menganalisis struktur kalimat, kesesuaian isi, kata kunci, dan keterkaitan jawaban dengan rubrik. Namun, penilaian esai tetap memerlukan pengawasan guru karena AI dapat keliru memahami konteks, kreativitas, argumentasi, atau kedalaman pemikiran peserta didik."
+  },
+  {
+    "pertanyaan": "Apa keuntungan automatic grading bagi guru?",
+    "jawaban": "Keuntungan automatic grading bagi guru adalah menghemat waktu pemeriksaan, mempercepat pemberian nilai, membantu mengurangi pekerjaan administratif, dan memungkinkan guru lebih fokus pada analisis pembelajaran serta pendampingan peserta didik."
+  },
+  {
+    "pertanyaan": "Apa risiko penggunaan automatic grading?",
+    "jawaban": "Risiko penggunaan automatic grading meliputi kemungkinan salah menilai jawaban, bias terhadap pola bahasa tertentu, kurang mampu membaca konteks, serta ketergantungan berlebihan pada sistem. Oleh karena itu, hasil penilaian otomatis sebaiknya diverifikasi oleh guru, terutama untuk tugas yang bersifat analitis, kreatif, atau reflektif."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan learning analytics?",
+    "jawaban": "Learning analytics adalah proses mengumpulkan, mengolah, dan menganalisis data belajar peserta didik untuk memahami perkembangan, kesulitan, dan kebutuhan belajar mereka. Data yang dianalisis dapat berupa nilai kuis, kehadiran, aktivitas di platform pembelajaran, waktu pengerjaan tugas, dan pola jawaban."
+  },
+  {
+    "pertanyaan": "Bagaimana learning analytics membantu guru?",
+    "jawaban": "Learning analytics membantu guru mengetahui peserta didik yang membutuhkan bantuan, materi yang sulit dipahami, pola kesalahan umum, serta efektivitas strategi pembelajaran. Informasi ini dapat digunakan untuk merancang remedial, pengayaan, atau perubahan metode mengajar."
+  },
+  {
+    "pertanyaan": "Data apa saja yang dapat digunakan dalam learning analytics?",
+    "jawaban": "Data yang dapat digunakan meliputi nilai tugas, nilai kuis, hasil ujian, kehadiran, waktu akses LMS, jumlah partisipasi diskusi, progres penyelesaian modul, hasil praktik, dan umpan balik peserta didik. Data tersebut harus digunakan secara etis dan menjaga privasi peserta didik."
+  },
+  {
+    "pertanyaan": "Apa contoh sederhana learning analytics di kelas vokasi?",
+    "jawaban": "Contoh sederhana adalah guru menganalisis nilai praktik peserta didik pada beberapa kompetensi. Jika banyak peserta didik gagal pada bagian tertentu, misalnya membaca diagram instalasi listrik, guru dapat menyimpulkan bahwa materi tersebut perlu dijelaskan ulang atau diberikan latihan tambahan."
+  },
+  {
+    "pertanyaan": "Bagaimana langkah awal merancang asesmen berbasis AI?",
+    "jawaban": "Langkah awal adalah menentukan tujuan asesmen, kompetensi yang akan diukur, bentuk tugas atau soal, indikator penilaian, dan rubrik. Setelah itu, guru dapat memilih alat AI yang sesuai untuk membantu penyusunan soal, analisis jawaban, pemberian umpan balik, atau analisis hasil belajar."
+  },
+  {
+    "pertanyaan": "Apa komponen penting dalam desain asesmen berbasis AI?",
+    "jawaban": "Komponen pentingnya meliputi tujuan pembelajaran, indikator capaian, jenis asesmen, instrumen penilaian, rubrik, data yang dianalisis, alat AI yang digunakan, mekanisme validasi guru, serta aturan etika penggunaan AI oleh peserta didik."
+  },
+  {
+    "pertanyaan": "Mengapa rubrik tetap diperlukan dalam asesmen berbasis AI?",
+    "jawaban": "Rubrik tetap diperlukan karena menjadi pedoman penilaian yang jelas, terukur, dan transparan. AI dapat membantu memeriksa atau memberi rekomendasi nilai, tetapi rubrik memastikan bahwa penilaian sesuai dengan tujuan pembelajaran dan kriteria yang telah ditetapkan guru."
+  },
+  {
+    "pertanyaan": "Apa contoh asesmen berbasis AI untuk mata pelajaran vokasi?",
+    "jawaban": "Contohnya, pada mata pelajaran desain grafis, peserta didik diminta membuat poster digital. AI dapat membantu memberi umpan balik awal tentang komposisi, keterbacaan teks, dan kesesuaian warna. Guru kemudian menilai produk akhir menggunakan rubrik yang mencakup kreativitas, teknik desain, ketepatan pesan, dan kerapian."
+  },
+  {
+    "pertanyaan": "Bagaimana AI dapat membantu membuat soal asesmen?",
+    "jawaban": "AI dapat membantu menghasilkan draf soal berdasarkan kompetensi, tingkat kesulitan, dan indikator pembelajaran. Guru tetap perlu memeriksa kesesuaian soal, kejelasan bahasa, kunci jawaban, tingkat kesulitan, serta potensi bias atau ambiguitas."
+  },
+  {
+    "pertanyaan": "Bagaimana AI dapat membantu memberikan umpan balik kepada peserta didik?",
+    "jawaban": "AI dapat menghasilkan umpan balik berdasarkan jawaban atau hasil kerja peserta didik, misalnya menunjukkan bagian yang belum tepat, memberi saran perbaikan, atau merekomendasikan materi tambahan. Guru perlu memastikan umpan balik tersebut benar, sopan, membangun, dan sesuai dengan konteks pembelajaran."
+  },
+  {
+    "pertanyaan": "Apa masalah etika yang perlu diperhatikan dalam asesmen berbasis AI?",
+    "jawaban": "Masalah etika yang perlu diperhatikan meliputi privasi data peserta didik, keadilan penilaian, transparansi penggunaan AI, potensi bias algoritma, keamanan data, dan kejelasan batas penggunaan AI oleh peserta didik dalam mengerjakan tugas."
+  },
+  {
+    "pertanyaan": "Mengapa privasi data penting dalam asesmen berbasis AI?",
+    "jawaban": "Privasi data penting karena asesmen melibatkan informasi pribadi dan akademik peserta didik, seperti nilai, kemampuan, kelemahan, dan aktivitas belajar. Data tersebut tidak boleh digunakan sembarangan, dibagikan tanpa izin, atau dimasukkan ke sistem AI yang tidak jelas kebijakan keamanannya."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan bias dalam penilaian berbasis AI?",
+    "jawaban": "Bias dalam penilaian berbasis AI adalah kecenderungan sistem memberikan hasil yang tidak adil karena data, algoritma, atau kriteria penilaiannya tidak seimbang. Misalnya, sistem lebih menguntungkan gaya bahasa tertentu atau kurang tepat menilai peserta didik dengan latar belakang berbeda."
+  },
+  {
+    "pertanyaan": "Bagaimana cara mengurangi risiko bias dalam asesmen berbasis AI?",
+    "jawaban": "Risiko bias dapat dikurangi dengan menggunakan rubrik yang jelas, memeriksa hasil penilaian AI secara manual, membandingkan hasil AI dengan penilaian guru, menggunakan data yang beragam, serta memastikan bahwa peserta didik mendapat kesempatan yang sama untuk menunjukkan kompetensinya."
+  },
+  {
+    "pertanyaan": "Apakah nilai dari AI boleh langsung dijadikan nilai akhir?",
+    "jawaban": "Nilai dari AI sebaiknya tidak langsung dijadikan nilai akhir tanpa pemeriksaan guru. AI dapat digunakan sebagai rekomendasi awal, tetapi guru tetap bertanggung jawab memastikan bahwa penilaian adil, sesuai rubrik, dan mempertimbangkan konteks pembelajaran."
+  },
+  {
+    "pertanyaan": "Mengapa asesmen berbasis AI relevan untuk pendidikan vokasi?",
+    "jawaban": "Asesmen berbasis AI relevan untuk pendidikan vokasi karena pembelajaran vokasi menekankan kompetensi praktis, kinerja, dan kesiapan kerja. AI dapat membantu menganalisis performa peserta didik, memberi umpan balik cepat, dan mendukung penilaian berbasis kompetensi."
+  },
+  {
+    "pertanyaan": "Apa contoh penggunaan AI untuk asesmen praktik vokasi?",
+    "jawaban": "Contohnya, pada praktik tata boga, peserta didik mengunggah foto produk makanan dan laporan proses kerja. AI dapat membantu memberi umpan balik awal tentang kelengkapan laporan atau konsistensi prosedur. Guru tetap menilai aspek rasa, kebersihan, teknik kerja, dan keselamatan kerja secara langsung."
+  },
+  {
+    "pertanyaan": "Apakah AI dapat menggantikan penilaian praktik langsung di pendidikan vokasi?",
+    "jawaban": "AI tidak dapat sepenuhnya menggantikan penilaian praktik langsung. Dalam pendidikan vokasi, guru masih perlu mengamati keterampilan kerja, sikap, keselamatan kerja, ketelitian, dan proses praktik. AI lebih tepat digunakan sebagai alat bantu dokumentasi, analisis, dan umpan balik."
+  },
+  {
+    "pertanyaan": "Apa saja alat AI yang dapat digunakan untuk membantu asesmen?",
+    "jawaban": "Alat yang dapat digunakan antara lain chatbot generatif untuk menyusun draf soal dan umpan balik, LMS dengan fitur analitik, aplikasi kuis digital, perangkat deteksi plagiarisme, serta alat analisis data sederhana seperti spreadsheet atau dashboard pembelajaran. Pemilihan alat harus disesuaikan dengan tujuan asesmen dan kebijakan institusi."
+  },
+  {
+    "pertanyaan": "Bagaimana contoh alur kerja asesmen berbasis AI?",
+    "jawaban": "Alur kerjanya dapat dimulai dari menetapkan kompetensi, membuat instrumen dan rubrik, menggunakan AI untuk menyusun draf soal atau umpan balik, mengumpulkan jawaban peserta didik, menganalisis hasil dengan bantuan AI, memvalidasi hasil oleh guru, lalu memberikan tindak lanjut berupa remedial atau pengayaan."
+  },
+  {
+    "pertanyaan": "Apa yang harus dilakukan guru sebelum menggunakan AI untuk asesmen?",
+    "jawaban": "Guru perlu memahami tujuan asesmen, memastikan instrumen sesuai kompetensi, menyiapkan rubrik, memeriksa kebijakan penggunaan data, memilih alat yang aman, serta menjelaskan kepada peserta didik aturan penggunaan AI dalam tugas atau ujian."
+  },
+  {
+    "pertanyaan": "Bagaimana cara mengevaluasi kualitas asesmen berbasis AI?",
+    "jawaban": "Kualitas asesmen berbasis AI dapat dievaluasi dari kesesuaian dengan tujuan pembelajaran, kejelasan indikator, validitas soal, keadilan penilaian, ketepatan umpan balik, keamanan data, serta keterlibatan guru dalam memverifikasi hasil."
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk membuat soal dengan bantuan AI.",
+    "jawaban": "Contoh prompt: 'Buatkan 10 soal pilihan ganda untuk materi keselamatan kerja di bengkel otomotif tingkat SMK. Setiap soal memiliki 4 pilihan jawaban, 1 kunci jawaban, dan pembahasan singkat. Gunakan bahasa yang jelas dan sesuai dengan konteks pendidikan vokasi.'"
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk membuat rubrik asesmen berbasis AI.",
+    "jawaban": "Contoh prompt: 'Buatkan rubrik penilaian untuk tugas proyek membuat video edukasi keselamatan kerja. Rubrik terdiri atas 4 kriteria, yaitu ketepatan isi, kreativitas media, kualitas teknis video, dan kejelasan pesan. Gunakan skala 1 sampai 4 dan berikan deskripsi setiap level.'"
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk menganalisis hasil belajar dengan AI.",
+    "jawaban": "Contoh prompt: 'Saya memiliki data nilai kuis 30 peserta didik pada materi dasar jaringan komputer. Bantu analisis pola nilai, identifikasi kompetensi yang paling lemah, dan berikan rekomendasi tindak lanjut pembelajaran. Jangan menampilkan identitas pribadi peserta didik.'"
+  },
+  {
+    "pertanyaan": "Apa peran guru dalam asesmen berbasis AI?",
+    "jawaban": "Peran guru adalah merancang asesmen, menentukan indikator dan rubrik, memilih alat AI yang tepat, memvalidasi hasil penilaian, menjaga etika penggunaan data, memberi umpan balik bermakna, dan mengambil keputusan pembelajaran berdasarkan hasil analisis."
+  },
+  {
+    "pertanyaan": "Apa kesimpulan utama dari materi penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Kesimpulan utamanya adalah AI dapat membantu asesmen menjadi lebih cepat, adaptif, dan berbasis data, terutama melalui automatic grading dan learning analytics. Namun, AI harus digunakan secara kritis, etis, dan tetap berada di bawah kendali guru agar penilaian adil, valid, dan sesuai tujuan pembelajaran."
   }
 ]

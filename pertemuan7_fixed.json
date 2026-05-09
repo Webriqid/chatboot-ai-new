@@ -1,0 +1,142 @@
+[
+  {
+    "pertanyaan": "Apa yang dimaksud dengan AI dalam asesmen pembelajaran?",
+    "jawaban": "AI dalam asesmen pembelajaran adalah pemanfaatan teknologi kecerdasan buatan untuk membantu proses penilaian belajar, seperti membuat soal, memeriksa jawaban, memberi umpan balik, menganalisis hasil belajar, dan mengidentifikasi kebutuhan belajar peserta didik. AI tidak menggantikan peran guru sepenuhnya, tetapi menjadi alat bantu agar asesmen lebih cepat, terarah, dan berbasis data."
+  },
+  {
+    "pertanyaan": "Apa tujuan penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Tujuan penggunaan AI dalam asesmen pembelajaran adalah membantu guru memperoleh informasi yang lebih cepat dan akurat tentang capaian belajar peserta didik, memberikan umpan balik yang lebih personal, mendeteksi kesulitan belajar, serta mendukung pengambilan keputusan dalam perbaikan pembelajaran."
+  },
+  {
+    "pertanyaan": "Apa perbedaan asesmen tradisional dan asesmen berbasis AI?",
+    "jawaban": "Asesmen tradisional umumnya dilakukan secara manual oleh guru, misalnya memeriksa tugas, kuis, atau ujian satu per satu. Asesmen berbasis AI menggunakan sistem komputasi untuk membantu sebagian proses tersebut, seperti koreksi otomatis, analisis pola jawaban, rekomendasi tindak lanjut, dan pemberian umpan balik cepat. Namun, validasi akhir tetap perlu dilakukan oleh guru."
+  },
+  {
+    "pertanyaan": "Apa saja bentuk penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Bentuk penggunaan AI dalam asesmen pembelajaran antara lain pembuatan soal otomatis, pemeriksaan jawaban pilihan ganda, pemeriksaan esai berbantuan AI, analisis hasil belajar, deteksi plagiarisme, pemberian umpan balik otomatis, rekomendasi materi remedial, dan pemantauan perkembangan belajar peserta didik."
+  },
+  {
+    "pertanyaan": "Apa itu automatic grading?",
+    "jawaban": "Automatic grading adalah proses pemeriksaan atau penilaian jawaban peserta didik secara otomatis menggunakan sistem digital atau AI. Sistem ini dapat digunakan untuk menilai soal pilihan ganda, isian singkat, bahkan esai tertentu. Meskipun demikian, untuk jawaban terbuka yang kompleks, guru tetap perlu meninjau hasil penilaian agar adil dan sesuai konteks."
+  },
+  {
+    "pertanyaan": "Apakah AI dapat menilai jawaban esai?",
+    "jawaban": "AI dapat membantu menilai jawaban esai dengan menganalisis struktur kalimat, kesesuaian isi, kata kunci, dan keterkaitan jawaban dengan rubrik. Namun, penilaian esai tetap memerlukan pengawasan guru karena AI dapat keliru memahami konteks, kreativitas, argumentasi, atau kedalaman pemikiran peserta didik."
+  },
+  {
+    "pertanyaan": "Apa keuntungan automatic grading bagi guru?",
+    "jawaban": "Keuntungan automatic grading bagi guru adalah menghemat waktu pemeriksaan, mempercepat pemberian nilai, membantu mengurangi pekerjaan administratif, dan memungkinkan guru lebih fokus pada analisis pembelajaran serta pendampingan peserta didik."
+  },
+  {
+    "pertanyaan": "Apa risiko penggunaan automatic grading?",
+    "jawaban": "Risiko penggunaan automatic grading meliputi kemungkinan salah menilai jawaban, bias terhadap pola bahasa tertentu, kurang mampu membaca konteks, serta ketergantungan berlebihan pada sistem. Oleh karena itu, hasil penilaian otomatis sebaiknya diverifikasi oleh guru, terutama untuk tugas yang bersifat analitis, kreatif, atau reflektif."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan learning analytics?",
+    "jawaban": "Learning analytics adalah proses mengumpulkan, mengolah, dan menganalisis data belajar peserta didik untuk memahami perkembangan, kesulitan, dan kebutuhan belajar mereka. Data yang dianalisis dapat berupa nilai kuis, kehadiran, aktivitas di platform pembelajaran, waktu pengerjaan tugas, dan pola jawaban."
+  },
+  {
+    "pertanyaan": "Bagaimana learning analytics membantu guru?",
+    "jawaban": "Learning analytics membantu guru mengetahui peserta didik yang membutuhkan bantuan, materi yang sulit dipahami, pola kesalahan umum, serta efektivitas strategi pembelajaran. Informasi ini dapat digunakan untuk merancang remedial, pengayaan, atau perubahan metode mengajar."
+  },
+  {
+    "pertanyaan": "Data apa saja yang dapat digunakan dalam learning analytics?",
+    "jawaban": "Data yang dapat digunakan meliputi nilai tugas, nilai kuis, hasil ujian, kehadiran, waktu akses LMS, jumlah partisipasi diskusi, progres penyelesaian modul, hasil praktik, dan umpan balik peserta didik. Data tersebut harus digunakan secara etis dan menjaga privasi peserta didik."
+  },
+  {
+    "pertanyaan": "Apa contoh sederhana learning analytics di kelas vokasi?",
+    "jawaban": "Contoh sederhana adalah guru menganalisis nilai praktik peserta didik pada beberapa kompetensi. Jika banyak peserta didik gagal pada bagian tertentu, misalnya membaca diagram instalasi listrik, guru dapat menyimpulkan bahwa materi tersebut perlu dijelaskan ulang atau diberikan latihan tambahan."
+  },
+  {
+    "pertanyaan": "Bagaimana langkah awal merancang asesmen berbasis AI?",
+    "jawaban": "Langkah awal adalah menentukan tujuan asesmen, kompetensi yang akan diukur, bentuk tugas atau soal, indikator penilaian, dan rubrik. Setelah itu, guru dapat memilih alat AI yang sesuai untuk membantu penyusunan soal, analisis jawaban, pemberian umpan balik, atau analisis hasil belajar."
+  },
+  {
+    "pertanyaan": "Apa komponen penting dalam desain asesmen berbasis AI?",
+    "jawaban": "Komponen pentingnya meliputi tujuan pembelajaran, indikator capaian, jenis asesmen, instrumen penilaian, rubrik, data yang dianalisis, alat AI yang digunakan, mekanisme validasi guru, serta aturan etika penggunaan AI oleh peserta didik."
+  },
+  {
+    "pertanyaan": "Mengapa rubrik tetap diperlukan dalam asesmen berbasis AI?",
+    "jawaban": "Rubrik tetap diperlukan karena menjadi pedoman penilaian yang jelas, terukur, dan transparan. AI dapat membantu memeriksa atau memberi rekomendasi nilai, tetapi rubrik memastikan bahwa penilaian sesuai dengan tujuan pembelajaran dan kriteria yang telah ditetapkan guru."
+  },
+  {
+    "pertanyaan": "Apa contoh asesmen berbasis AI untuk mata pelajaran vokasi?",
+    "jawaban": "Contohnya, pada mata pelajaran desain grafis, peserta didik diminta membuat poster digital. AI dapat membantu memberi umpan balik awal tentang komposisi, keterbacaan teks, dan kesesuaian warna. Guru kemudian menilai produk akhir menggunakan rubrik yang mencakup kreativitas, teknik desain, ketepatan pesan, dan kerapian."
+  },
+  {
+    "pertanyaan": "Bagaimana AI dapat membantu membuat soal asesmen?",
+    "jawaban": "AI dapat membantu menghasilkan draf soal berdasarkan kompetensi, tingkat kesulitan, dan indikator pembelajaran. Guru tetap perlu memeriksa kesesuaian soal, kejelasan bahasa, kunci jawaban, tingkat kesulitan, serta potensi bias atau ambiguitas."
+  },
+  {
+    "pertanyaan": "Bagaimana AI dapat membantu memberikan umpan balik kepada peserta didik?",
+    "jawaban": "AI dapat menghasilkan umpan balik berdasarkan jawaban atau hasil kerja peserta didik, misalnya menunjukkan bagian yang belum tepat, memberi saran perbaikan, atau merekomendasikan materi tambahan. Guru perlu memastikan umpan balik tersebut benar, sopan, membangun, dan sesuai dengan konteks pembelajaran."
+  },
+  {
+    "pertanyaan": "Apa masalah etika yang perlu diperhatikan dalam asesmen berbasis AI?",
+    "jawaban": "Masalah etika yang perlu diperhatikan meliputi privasi data peserta didik, keadilan penilaian, transparansi penggunaan AI, potensi bias algoritma, keamanan data, dan kejelasan batas penggunaan AI oleh peserta didik dalam mengerjakan tugas."
+  },
+  {
+    "pertanyaan": "Mengapa privasi data penting dalam asesmen berbasis AI?",
+    "jawaban": "Privasi data penting karena asesmen melibatkan informasi pribadi dan akademik peserta didik, seperti nilai, kemampuan, kelemahan, dan aktivitas belajar. Data tersebut tidak boleh digunakan sembarangan, dibagikan tanpa izin, atau dimasukkan ke sistem AI yang tidak jelas kebijakan keamanannya."
+  },
+  {
+    "pertanyaan": "Apa yang dimaksud dengan bias dalam penilaian berbasis AI?",
+    "jawaban": "Bias dalam penilaian berbasis AI adalah kecenderungan sistem memberikan hasil yang tidak adil karena data, algoritma, atau kriteria penilaiannya tidak seimbang. Misalnya, sistem lebih menguntungkan gaya bahasa tertentu atau kurang tepat menilai peserta didik dengan latar belakang berbeda."
+  },
+  {
+    "pertanyaan": "Bagaimana cara mengurangi risiko bias dalam asesmen berbasis AI?",
+    "jawaban": "Risiko bias dapat dikurangi dengan menggunakan rubrik yang jelas, memeriksa hasil penilaian AI secara manual, membandingkan hasil AI dengan penilaian guru, menggunakan data yang beragam, serta memastikan bahwa peserta didik mendapat kesempatan yang sama untuk menunjukkan kompetensinya."
+  },
+  {
+    "pertanyaan": "Apakah nilai dari AI boleh langsung dijadikan nilai akhir?",
+    "jawaban": "Nilai dari AI sebaiknya tidak langsung dijadikan nilai akhir tanpa pemeriksaan guru. AI dapat digunakan sebagai rekomendasi awal, tetapi guru tetap bertanggung jawab memastikan bahwa penilaian adil, sesuai rubrik, dan mempertimbangkan konteks pembelajaran."
+  },
+  {
+    "pertanyaan": "Mengapa asesmen berbasis AI relevan untuk pendidikan vokasi?",
+    "jawaban": "Asesmen berbasis AI relevan untuk pendidikan vokasi karena pembelajaran vokasi menekankan kompetensi praktis, kinerja, dan kesiapan kerja. AI dapat membantu menganalisis performa peserta didik, memberi umpan balik cepat, dan mendukung penilaian berbasis kompetensi."
+  },
+  {
+    "pertanyaan": "Apa contoh penggunaan AI untuk asesmen praktik vokasi?",
+    "jawaban": "Contohnya, pada praktik tata boga, peserta didik mengunggah foto produk makanan dan laporan proses kerja. AI dapat membantu memberi umpan balik awal tentang kelengkapan laporan atau konsistensi prosedur. Guru tetap menilai aspek rasa, kebersihan, teknik kerja, dan keselamatan kerja secara langsung."
+  },
+  {
+    "pertanyaan": "Apakah AI dapat menggantikan penilaian praktik langsung di pendidikan vokasi?",
+    "jawaban": "AI tidak dapat sepenuhnya menggantikan penilaian praktik langsung. Dalam pendidikan vokasi, guru masih perlu mengamati keterampilan kerja, sikap, keselamatan kerja, ketelitian, dan proses praktik. AI lebih tepat digunakan sebagai alat bantu dokumentasi, analisis, dan umpan balik."
+  },
+  {
+    "pertanyaan": "Apa saja alat AI yang dapat digunakan untuk membantu asesmen?",
+    "jawaban": "Alat yang dapat digunakan antara lain chatbot generatif untuk menyusun draf soal dan umpan balik, LMS dengan fitur analitik, aplikasi kuis digital, perangkat deteksi plagiarisme, serta alat analisis data sederhana seperti spreadsheet atau dashboard pembelajaran. Pemilihan alat harus disesuaikan dengan tujuan asesmen dan kebijakan institusi."
+  },
+  {
+    "pertanyaan": "Bagaimana contoh alur kerja asesmen berbasis AI?",
+    "jawaban": "Alur kerjanya dapat dimulai dari menetapkan kompetensi, membuat instrumen dan rubrik, menggunakan AI untuk menyusun draf soal atau umpan balik, mengumpulkan jawaban peserta didik, menganalisis hasil dengan bantuan AI, memvalidasi hasil oleh guru, lalu memberikan tindak lanjut berupa remedial atau pengayaan."
+  },
+  {
+    "pertanyaan": "Apa yang harus dilakukan guru sebelum menggunakan AI untuk asesmen?",
+    "jawaban": "Guru perlu memahami tujuan asesmen, memastikan instrumen sesuai kompetensi, menyiapkan rubrik, memeriksa kebijakan penggunaan data, memilih alat yang aman, serta menjelaskan kepada peserta didik aturan penggunaan AI dalam tugas atau ujian."
+  },
+  {
+    "pertanyaan": "Bagaimana cara mengevaluasi kualitas asesmen berbasis AI?",
+    "jawaban": "Kualitas asesmen berbasis AI dapat dievaluasi dari kesesuaian dengan tujuan pembelajaran, kejelasan indikator, validitas soal, keadilan penilaian, ketepatan umpan balik, keamanan data, serta keterlibatan guru dalam memverifikasi hasil."
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk membuat soal dengan bantuan AI.",
+    "jawaban": "Contoh prompt: 'Buatkan 10 soal pilihan ganda untuk materi keselamatan kerja di bengkel otomotif tingkat SMK. Setiap soal memiliki 4 pilihan jawaban, 1 kunci jawaban, dan pembahasan singkat. Gunakan bahasa yang jelas dan sesuai dengan konteks pendidikan vokasi.'"
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk membuat rubrik asesmen berbasis AI.",
+    "jawaban": "Contoh prompt: 'Buatkan rubrik penilaian untuk tugas proyek membuat video edukasi keselamatan kerja. Rubrik terdiri atas 4 kriteria, yaitu ketepatan isi, kreativitas media, kualitas teknis video, dan kejelasan pesan. Gunakan skala 1 sampai 4 dan berikan deskripsi setiap level.'"
+  },
+  {
+    "pertanyaan": "Berikan contoh prompt untuk menganalisis hasil belajar dengan AI.",
+    "jawaban": "Contoh prompt: 'Saya memiliki data nilai kuis 30 peserta didik pada materi dasar jaringan komputer. Bantu analisis pola nilai, identifikasi kompetensi yang paling lemah, dan berikan rekomendasi tindak lanjut pembelajaran. Jangan menampilkan identitas pribadi peserta didik.'"
+  },
+  {
+    "pertanyaan": "Apa peran guru dalam asesmen berbasis AI?",
+    "jawaban": "Peran guru adalah merancang asesmen, menentukan indikator dan rubrik, memilih alat AI yang tepat, memvalidasi hasil penilaian, menjaga etika penggunaan data, memberi umpan balik bermakna, dan mengambil keputusan pembelajaran berdasarkan hasil analisis."
+  },
+  {
+    "pertanyaan": "Apa kesimpulan utama dari materi penggunaan AI dalam asesmen pembelajaran?",
+    "jawaban": "Kesimpulan utamanya adalah AI dapat membantu asesmen menjadi lebih cepat, adaptif, dan berbasis data, terutama melalui automatic grading dan learning analytics. Namun, AI harus digunakan secara kritis, etis, dan tetap berada di bawah kendali guru agar penilaian adil, valid, dan sesuai tujuan pembelajaran."
+  }
+]

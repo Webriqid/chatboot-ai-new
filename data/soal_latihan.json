@@ -415,5 +415,323 @@
         "jawaban": "berpikir kritis, literasi digital, dan tanggung jawab akademik"
       }
     ]
+  },
+  {
+    "minggu": 5,
+    "topik": "Studi Kasus Etika AI",
+    "soal": [
+      {
+        "pertanyaan": "Etika AI dalam konteks pendidikan terutama berkaitan dengan",
+        "pilihan": [
+          "kecepatan komputer dalam memproses data",
+          "bagaimana AI digunakan secara adil, bertanggung jawab, dan tidak merugikan proses pembelajaran",
+          "penggantian semua peran dosen oleh mesin",
+          "penggunaan AI tanpa batasan akademik"
+        ],
+        "jawaban": "bagaimana AI digunakan secara adil, bertanggung jawab, dan tidak merugikan proses pembelajaran"
+      },
+      {
+        "pertanyaan": "Salah satu contoh bias algoritma dalam pendidikan adalah",
+        "pilihan": [
+          "sistem pembelajaran yang selalu bisa menjawab semua pertanyaan",
+          "sistem penilaian otomatis yang cenderung lebih adil kepada semua gaya bahasa tanpa kecuali",
+          "sistem AI yang lebih akurat menilai kelompok tertentu dibanding kelompok lain",
+          "penggunaan AI untuk membuat jadwal kuliah"
+        ],
+        "jawaban": "sistem AI yang lebih akurat menilai kelompok tertentu dibanding kelompok lain"
+      },
+      {
+        "pertanyaan": "Privasi data dalam penggunaan AI di pendidikan terutama berkaitan dengan",
+        "pilihan": [
+          "kebebasan mahasiswa menggunakan semua aplikasi tanpa aturan",
+          "perlindungan informasi pribadi dan data belajar agar tidak disalahgunakan",
+          "penghapusan semua data mahasiswa dari sistem",
+          "pelarangan teknologi digital di kampus"
+        ],
+        "jawaban": "perlindungan informasi pribadi dan data belajar agar tidak disalahgunakan"
+      },
+      {
+        "pertanyaan": "Dalam era AI, plagiarisme dapat terjadi ketika",
+        "pilihan": [
+          "mahasiswa menggunakan AI untuk mencari ide, lalu menulis ulang dengan analisis sendiri",
+          "mahasiswa menyerahkan keluaran AI mentah sebagai karya pribadi tanpa pengolahan dan tanpa pengakuan",
+          "dosen memberi contoh penggunaan AI secara terbuka",
+          "mahasiswa memeriksa ulang jawaban AI dengan sumber ilmiah"
+        ],
+        "jawaban": "mahasiswa menyerahkan keluaran AI mentah sebagai karya pribadi tanpa pengolahan dan tanpa pengakuan"
+      },
+      {
+        "pertanyaan": "Fabrikasi sitasi oleh AI berarti",
+        "pilihan": [
+          "AI menghasilkan referensi yang valid dan dapat ditelusuri",
+          "AI menulis daftar pustaka secara otomatis dari basis data resmi",
+          "AI menghasilkan detail referensi yang tampak ilmiah tetapi sebenarnya tidak ada atau salah",
+          "AI hanya merangkum isi jurnal tanpa menyebut sumber"
+        ],
+        "jawaban": "AI menghasilkan detail referensi yang tampak ilmiah tetapi sebenarnya tidak ada atau salah"
+      },
+      {
+        "pertanyaan": "Salah satu bentuk penyalahgunaan AI dalam pendidikan adalah",
+        "pilihan": [
+          "menggunakan AI untuk brainstorming awal lalu memverifikasi hasilnya",
+          "menggunakan AI untuk menyalin jawaban ujian atau tugas tanpa proses berpikir sendiri",
+          "meminta AI menjelaskan istilah teknis",
+          "membandingkan jawaban AI dengan buku teks"
+        ],
+        "jawaban": "menggunakan AI untuk menyalin jawaban ujian atau tugas tanpa proses berpikir sendiri"
+      },
+      {
+        "pertanyaan": "Prinsip transparency dalam penggunaan AI berarti",
+        "pilihan": [
+          "semua kode program AI harus dihafal mahasiswa",
+          "pengguna mengetahui bahwa mereka berinteraksi dengan AI dan memahami secara umum bagaimana AI digunakan",
+          "AI boleh digunakan secara tersembunyi agar hasilnya lebih alami",
+          "AI harus menggantikan semua bentuk penjelasan dosen"
+        ],
+        "jawaban": "pengguna mengetahui bahwa mereka berinteraksi dengan AI dan memahami secara umum bagaimana AI digunakan"
+      },
+      {
+        "pertanyaan": "Prinsip accountability dalam etika AI menegaskan bahwa",
+        "pilihan": [
+          "AI harus bertanggung jawab sendiri atas semua akibatnya",
+          "tanggung jawab atas penggunaan dan dampak AI tetap berada pada manusia atau institusi",
+          "mahasiswa tidak perlu bertanggung jawab jika menggunakan AI",
+          "semua kesalahan AI dapat diabaikan"
+        ],
+        "jawaban": "tanggung jawab atas penggunaan dan dampak AI tetap berada pada manusia atau institusi"
+      },
+      {
+        "pertanyaan": "Salah satu alasan literasi AI penting dalam konteks etika adalah",
+        "pilihan": [
+          "agar mahasiswa dapat menyerahkan semua proses belajar kepada AI",
+          "agar pengguna memahami cara kerja, keterbatasan, dan risiko AI sebelum menggunakannya",
+          "agar AI dapat digunakan tanpa perlu verifikasi",
+          "agar semua keputusan akademik digantikan oleh sistem"
+        ],
+        "jawaban": "agar pengguna memahami cara kerja, keterbatasan, dan risiko AI sebelum menggunakannya"
+      },
+      {
+        "pertanyaan": "Penggunaan AI yang bertanggung jawab dalam pendidikan berarti",
+        "pilihan": [
+          "menggunakan AI sebagai alat bantu belajar dengan verifikasi, transparansi, dan tetap menjaga integritas akademik",
+          "menggunakan AI untuk menggantikan semua tugas berpikir mahasiswa",
+          "membiarkan AI mengambil keputusan akademik tanpa pengawasan",
+          "mengutamakan kecepatan hasil dibanding kejujuran akademik"
+        ],
+        "jawaban": "menggunakan AI sebagai alat bantu belajar dengan verifikasi, transparansi, dan tetap menjaga integritas akademik"
+      }
+    ]
+  },
+  {
+    "minggu": 6,
+    "topik": "Kajian Artificial Intelligence in Education (AIED)",
+    "soal": [
+      {
+        "pertanyaan": "Artificial Intelligence in Education atau AIED adalah bidang yang berfokus pada",
+        "pilihan": [
+          "penggunaan AI untuk industri manufaktur",
+          "penerapan AI untuk mendukung proses belajar, mengajar, asesmen, dan pengelolaan pembelajaran",
+          "pembuatan robot humanoid di laboratorium",
+          "penghapusan seluruh peran guru dalam pendidikan"
+        ],
+        "jawaban": "penerapan AI untuk mendukung proses belajar, mengajar, asesmen, dan pengelolaan pembelajaran"
+      },
+      {
+        "pertanyaan": "Salah satu tujuan utama AIED adalah",
+        "pilihan": [
+          "membuat semua siswa belajar dengan cara yang sama",
+          "meningkatkan kualitas pembelajaran melalui dukungan yang lebih personal dan adaptif",
+          "mengurangi interaksi antara guru dan siswa",
+          "mengganti semua buku dengan mesin"
+        ],
+        "jawaban": "meningkatkan kualitas pembelajaran melalui dukungan yang lebih personal dan adaptif"
+      },
+      {
+        "pertanyaan": "Intelligent Tutoring System atau ITS adalah",
+        "pilihan": [
+          "sistem AI yang mensimulasikan sebagian fungsi tutor untuk memberi bimbingan individual",
+          "aplikasi untuk menyimpan nilai mahasiswa",
+          "sistem yang hanya dapat menampilkan video pembelajaran",
+          "program untuk membuat poster otomatis"
+        ],
+        "jawaban": "sistem AI yang mensimulasikan sebagian fungsi tutor untuk memberi bimbingan individual"
+      },
+      {
+        "pertanyaan": "Salah satu ciri utama ITS adalah",
+        "pilihan": [
+          "hanya memberikan materi yang sama kepada semua pengguna",
+          "memantau respons pembelajar dan memberikan umpan balik yang sesuai",
+          "tidak membutuhkan model pembelajar",
+          "hanya bekerja dalam bentuk robot fisik"
+        ],
+        "jawaban": "memantau respons pembelajar dan memberikan umpan balik yang sesuai"
+      },
+      {
+        "pertanyaan": "Adaptive learning adalah pendekatan yang",
+        "pilihan": [
+          "melarang penyesuaian materi belajar",
+          "menyesuaikan materi, urutan, atau dukungan belajar berdasarkan kebutuhan peserta didik",
+          "mengharuskan semua siswa menyelesaikan modul pada waktu yang sama",
+          "hanya digunakan di industri, bukan pendidikan"
+        ],
+        "jawaban": "menyesuaikan materi, urutan, atau dukungan belajar berdasarkan kebutuhan peserta didik"
+      },
+      {
+        "pertanyaan": "Hubungan adaptive learning dengan personalisasi pembelajaran adalah",
+        "pilihan": [
+          "keduanya tidak berhubungan",
+          "adaptive learning adalah salah satu cara mewujudkan personalisasi pembelajaran",
+          "personalisasi pembelajaran berarti semua siswa diberi tugas identik",
+          "adaptive learning menolak penggunaan data pembelajar"
+        ],
+        "jawaban": "adaptive learning adalah salah satu cara mewujudkan personalisasi pembelajaran"
+      },
+      {
+        "pertanyaan": "Salah satu komponen penting ITS adalah",
+        "pilihan": [
+          "model domain, model pembelajar, dan model pedagogis",
+          "mesin pencari, aplikasi chat, dan media sosial",
+          "printer, scanner, dan penyimpanan awan",
+          "perangkat keras jaringan lokal"
+        ],
+        "jawaban": "model domain, model pembelajar, dan model pedagogis"
+      },
+      {
+        "pertanyaan": "Learner model dalam AIED digunakan untuk",
+        "pilihan": [
+          "menggantikan semua keputusan dosen",
+          "merepresentasikan kondisi, kemampuan, atau kebutuhan pembelajar agar sistem dapat menyesuaikan dukungan",
+          "menyimpan semua data administrasi kampus",
+          "menonaktifkan personalisasi pembelajaran"
+        ],
+        "jawaban": "merepresentasikan kondisi, kemampuan, atau kebutuhan pembelajar agar sistem dapat menyesuaikan dukungan"
+      },
+      {
+        "pertanyaan": "Salah satu keterbatasan ITS dibanding tutor manusia adalah",
+        "pilihan": [
+          "ITS selalu lebih peka terhadap emosi dan konteks sosial",
+          "ITS tidak pernah melakukan kesalahan",
+          "ITS terbatas dalam memahami nuansa komunikasi, emosi, dan konteks kompleks seperti manusia",
+          "ITS tidak memerlukan data apa pun"
+        ],
+        "jawaban": "ITS terbatas dalam memahami nuansa komunikasi, emosi, dan konteks kompleks seperti manusia"
+      },
+      {
+        "pertanyaan": "Mengapa AIED tidak boleh dipahami sebagai pengganti guru?",
+        "pilihan": [
+          "Karena guru tidak boleh menggunakan teknologi",
+          "Karena pendidikan melibatkan relasi manusiawi, empati, dan keputusan pedagogis yang tidak sepenuhnya dapat digantikan AI",
+          "Karena AI tidak dapat digunakan dalam pembelajaran",
+          "Karena semua siswa menolak pembelajaran digital"
+        ],
+        "jawaban": "Karena pendidikan melibatkan relasi manusiawi, empati, dan keputusan pedagogis yang tidak sepenuhnya dapat digantikan AI"
+      }
+    ]
+  },
+  {
+    "minggu": 7,
+    "topik": "Penggunaan AI dalam Asesmen Pembelajaran",
+    "soal": [
+      {
+        "pertanyaan": "Penggunaan AI dalam asesmen pembelajaran terutama bertujuan untuk",
+        "pilihan": [
+          "menghapus seluruh peran guru dalam proses penilaian",
+          "membantu proses penilaian, pemberian umpan balik, dan analisis hasil belajar secara lebih cepat dan berbasis data",
+          "membuat semua peserta didik memperoleh nilai yang sama",
+          "mengganti seluruh bentuk asesmen praktik dengan ujian daring"
+        ],
+        "jawaban": "membantu proses penilaian, pemberian umpan balik, dan analisis hasil belajar secara lebih cepat dan berbasis data"
+      },
+      {
+        "pertanyaan": "AI assessment dalam konteks pendidikan dapat dipahami sebagai",
+        "pilihan": [
+          "pemanfaatan AI untuk mendukung perancangan, pelaksanaan, penilaian, dan analisis asesmen pembelajaran",
+          "penggunaan AI hanya untuk membuat gambar pembelajaran",
+          "sistem yang hanya digunakan untuk menggantikan ujian akhir",
+          "aplikasi hiburan yang tidak berkaitan dengan proses belajar"
+        ],
+        "jawaban": "pemanfaatan AI untuk mendukung perancangan, pelaksanaan, penilaian, dan analisis asesmen pembelajaran"
+      },
+      {
+        "pertanyaan": "Automatic grading adalah proses",
+        "pilihan": [
+          "penyusunan jadwal belajar secara manual oleh guru",
+          "pemeriksaan atau penilaian jawaban peserta didik secara otomatis dengan bantuan sistem digital atau AI",
+          "penghapusan rubrik penilaian karena semua nilai ditentukan mesin",
+          "penentuan kelulusan peserta didik tanpa data hasil belajar"
+        ],
+        "jawaban": "pemeriksaan atau penilaian jawaban peserta didik secara otomatis dengan bantuan sistem digital atau AI"
+      },
+      {
+        "pertanyaan": "Contoh penggunaan automatic grading yang paling tepat adalah",
+        "pilihan": [
+          "AI membantu memeriksa jawaban kuis pilihan ganda dan memberi rekap nilai awal",
+          "AI menggantikan guru dalam menilai sikap peserta didik tanpa observasi",
+          "AI menentukan karakter peserta didik hanya dari nama lengkap",
+          "AI menghapus semua proses umpan balik dalam pembelajaran"
+        ],
+        "jawaban": "AI membantu memeriksa jawaban kuis pilihan ganda dan memberi rekap nilai awal"
+      },
+      {
+        "pertanyaan": "Keterbatasan automatic grading pada jawaban esai adalah",
+        "pilihan": [
+          "selalu lebih akurat daripada guru dalam semua konteks",
+          "tidak memerlukan rubrik penilaian",
+          "dapat keliru memahami konteks, kedalaman argumen, kreativitas, atau maksud jawaban peserta didik",
+          "hanya dapat digunakan untuk menyimpan dokumen"
+        ],
+        "jawaban": "dapat keliru memahami konteks, kedalaman argumen, kreativitas, atau maksud jawaban peserta didik"
+      },
+      {
+        "pertanyaan": "Learning analytics dalam pembelajaran berkaitan dengan",
+        "pilihan": [
+          "analisis data belajar peserta didik untuk memahami perkembangan, kesulitan, dan kebutuhan belajar",
+          "penggunaan media sosial untuk promosi sekolah",
+          "pembuatan logo kelas secara otomatis",
+          "penghapusan semua data nilai dari sistem pembelajaran"
+        ],
+        "jawaban": "analisis data belajar peserta didik untuk memahami perkembangan, kesulitan, dan kebutuhan belajar"
+      },
+      {
+        "pertanyaan": "Data yang dapat digunakan dalam learning analytics adalah",
+        "pilihan": [
+          "nilai kuis, kehadiran, aktivitas LMS, waktu pengerjaan tugas, dan pola jawaban peserta didik",
+          "warna seragam peserta didik sebagai satu-satunya indikator prestasi",
+          "jumlah kursi di kelas tanpa kaitan dengan aktivitas belajar",
+          "nama aplikasi yang paling sering muncul di iklan"
+        ],
+        "jawaban": "nilai kuis, kehadiran, aktivitas LMS, waktu pengerjaan tugas, dan pola jawaban peserta didik"
+      },
+      {
+        "pertanyaan": "Salah satu manfaat learning analytics bagi guru adalah",
+        "pilihan": [
+          "menentukan hukuman tanpa melihat data pembelajaran",
+          "mengidentifikasi peserta didik yang membutuhkan remedial atau pengayaan berdasarkan pola hasil belajar",
+          "menghapus kebutuhan perencanaan pembelajaran",
+          "mengabaikan capaian pembelajaran karena nilai sudah tersedia"
+        ],
+        "jawaban": "mengidentifikasi peserta didik yang membutuhkan remedial atau pengayaan berdasarkan pola hasil belajar"
+      },
+      {
+        "pertanyaan": "Dalam merancang asesmen berbasis AI, guru tetap perlu menyiapkan",
+        "pilihan": [
+          "rubrik, indikator penilaian, aturan penggunaan AI, dan mekanisme validasi hasil",
+          "hanya nama aplikasi AI tanpa tujuan pembelajaran",
+          "daftar nilai tanpa kompetensi yang diukur",
+          "instruksi yang membebaskan peserta didik menyalin semua keluaran AI"
+        ],
+        "jawaban": "rubrik, indikator penilaian, aturan penggunaan AI, dan mekanisme validasi hasil"
+      },
+      {
+        "pertanyaan": "Prinsip penting dalam penggunaan AI untuk asesmen pembelajaran adalah",
+        "pilihan": [
+          "hasil AI boleh langsung dijadikan nilai akhir tanpa pemeriksaan",
+          "data peserta didik dapat dimasukkan ke semua aplikasi tanpa izin",
+          "AI digunakan secara transparan, etis, berbasis rubrik, dan tetap divalidasi oleh guru",
+          "guru tidak perlu memahami cara kerja dan keterbatasan AI"
+        ],
+        "jawaban": "AI digunakan secara transparan, etis, berbasis rubrik, dan tetap divalidasi oleh guru"
+      }
+    ]
   }
 ]
