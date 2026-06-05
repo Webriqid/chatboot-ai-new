@@ -101,7 +101,7 @@ with col1:
         st.switch_page("pages/Ruang_chat.py")
 
 with col2:
-    st.markdown('<div class="option-card"><h3>📝 Latihan AI</h3><p>Uji pemahamanmu dengan kuis mingguan yang menantang.</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="option-card"><h3>📝 Latihan AI</h3><p>Uji pemahamanmu dengan kuis mingguan .</p></div>', unsafe_allow_html=True)
     if st.button("Mulai Latihan", use_container_width=True, key="btn_quiz"):
         st.switch_page("pages/Latihan.py")
 
