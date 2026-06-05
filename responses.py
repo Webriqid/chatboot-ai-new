@@ -28,3 +28,19 @@ def respon_ai(user_input):
                 return item["jawaban"]
     
     return "Maaf, saya tidak menemukan jawaban itu di materi. Coba tanya hal lain!"
+def respon_ai(prompt):
+    # Ubah input menjadi huruf kecil semua agar pencocokan lebih akurat
+    prompt_lower = prompt.lower().strip()
+    
+    # 1. LOGIKA SAPAAN (GREETING) - TAMBAHKAN INI DI BARIS PALING ATAS
+    sapaan_user = ["halo", "halo ai", "hai", "hi", "hello", "assalamualaikum", "p", "selamat pagi", "selamat siang"]
+    if prompt_lower in sapaan_user:
+        return "Halo juga! Ada yang bisa saya bantu untuk mendiskusikan materi AI kuliah kita hari ini?"
+        
+    # 2. LOGIKA MATERI KULIAH (Kode kamumu yang lama tetap di bawah sini)
+    # Contoh isi kode lamamu:
+    # if "etika" in prompt_lower:
+    #     return ...
+    
+    # Fungsi fallback/default jika tidak ada kata kunci yang cocok
+    return "Maaf, saya tidak menemukan jawaban itu di materi. Coba tanya hal lain!"

@@ -10,12 +10,13 @@ st.set_page_config(page_title="Chatbot AI - Latihan", layout="wide")
 # 2. INISIALISASI KONEKSI DATABASE
 conn = st.connection("gsheets", type=GSheetsConnection)
 
-# 3. CSS CUSTOM (SIDEBAR & STYLE)
+# 3. CSS CUSTOM (UPGRADED VISUAL)
 st.markdown("""
     <style>
     [data-testid="stSidebarNav"] {display: none !important;}
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=400;700&display=swap');
     html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
+    
     .chatbot-logo {
         font-weight: bold !important;
         font-size: 28px !important;
@@ -23,6 +24,15 @@ st.markdown("""
         color: inherit !important;
         display: block !important;
         margin: 20px 0 10px 0 !important;
+    }
+
+    /* UPGRADE: Membungkus setiap soal dengan kotak transparan yang estetik */
+    .quiz-box {
+        background-color: rgba(255, 255, 255, 0.03);
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        margin-bottom: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -34,15 +44,15 @@ with st.sidebar:
     st.page_link("app.py", label="🏠 Beranda")
     st.page_link("pages/Ruang_chat.py", label="💬 Ruang Chat")
     st.page_link("pages/Latihan.py", label="📝 Latihan AI")
-    st.page_link("pages/Materi.py", label="📖 Materi AI")
     st.divider()
 
 # 5. FUNGSI DATABASE & LOAD DATA
 def load_kuis():
     try:
-        with open("data/soal_latihan.json", "r") as f:
+        with open("data/soal_latihan.json", "r", encoding="utf-8") as f:
             return json.load(f)
-    except: return []
+    except: 
+        return []
 
 def simpan_ke_database(nama, minggu, skor, total_soal):
     try:
@@ -78,22 +88,39 @@ else:
     minggu_ke = kuis_data[idx_minggu]['minggu']
     soal_list = kuis_data[idx_minggu]['soal']
 
-    if f"jawab_{idx_minggu}" not in st.session_state:
-        st.session_state[f"jawab_{idx_minggu}"] = [None] * len(soal_list)
-    
-    for i, item in enumerate(soal_list):
-        st.write(f"**{i+1}. {item['pertanyaan']}**")
-        ans = st.radio(f"Pilih:", item['pilihan'], index=None, key=f"q_{idx_minggu}_{i}", label_visibility="collapsed")
-        st.session_state[f"jawab_{idx_minggu}"][i] = ans
-        st.write("---")
+    # UPGRADE UX: Menggunakan form agar aplikasi tidak melakukan refresh setiap kali opsi diklik
+    with st.form(key=f"form_kuis_{idx_minggu}"):
+        
+        # List sementara untuk menampung input jawaban pengguna di dalam form
+        jawaban_sementara = []
+        
+        for i, item in enumerate(soal_list):
+            # Tampilan soal dibungkus div quiz-box agar rapi
+            st.markdown('<div class="quiz-box">', unsafe_allow_html=True)
+            st.write(f"**{i+1}. {item['pertanyaan']}**")
+            
+            ans = st.radio(
+                f"Pilih:", 
+                item['pilihan'], 
+                index=None, 
+                key=f"q_{idx_minggu}_{i}", 
+                label_visibility="collapsed"
+            )
+            st.markdown('</div>', unsafe_allow_html=True)
+            jawaban_sementara.append(ans)
+        
+        # Tombol submit khusus di dalam form
+        tombol_kirim = st.form_submit_button("Kirim Jawaban", use_container_width=True, type="primary")
 
-    if st.button("Kirim Jawaban", use_container_width=True, type="primary"):
-        if None in st.session_state[f"jawab_{idx_minggu}"]:
-            st.warning("Harap jawab semua soal terlebih dahulu!")
+    # 7. LOGIKA VALIDASI SETELAH TOMBOL SUBMIT DIKLIK
+    if tombol_kirim:
+        if None in jawaban_sementara:
+            st.warning("Harap jawab semua soal terlebih diante/dahulu!")
         elif nama_user.strip() == "":
             st.warning("Harap isi nama lengkap untuk keperluan database admin!")
         else:
-            skor_benar = sum(1 for i, s in enumerate(soal_list) if st.session_state[f"jawab_{idx_minggu}"][i] == s['jawaban'])
+            # Hitung skor jawaban benar
+            skor_benar = sum(1 for i, s in enumerate(soal_list) if jawaban_sementara[i] == s['jawaban'])
             total_soal = len(soal_list)
             persentase = int((skor_benar / total_soal) * 100)
             

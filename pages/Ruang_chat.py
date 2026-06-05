@@ -57,7 +57,6 @@ with st.sidebar:
     st.page_link("app.py", label="🏠 Beranda")
     st.page_link("pages/Ruang_chat.py", label="💬 Ruang Chat")
     st.page_link("pages/Latihan.py", label="📝 Latihan AI")
-    st.page_link("pages/Materi.py", label="📖 Materi AI") # Tambahkan baris ini
     st.divider()
     
     # Kelola Ruangan Chat
@@ -82,7 +81,9 @@ with st.sidebar:
                 st.session_state.current_thread = new_topic
                 st.rerun()
 
-# 5. AREA CHAT
+# =========================================================================
+# 5. AREA CHAT (UPGRADED UI/UX WITH SPINNER)
+# =========================================================================
 st.title(f"💬 {st.session_state.current_thread}")
 
 current_messages = st.session_state.threads[st.session_state.current_thread]
@@ -90,14 +91,18 @@ for message in current_messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-if prompt := st.chat_input(f"Tanya sesuatu ke Chatbot AI..."):
+if prompt := st.chat_input("Tanya sesuatu ke Chatbot AI..."):
     with st.chat_message("user"):
         st.markdown(prompt)
     current_messages.append({"role": "user", "content": prompt})
 
-    jawaban_full = respon_ai(prompt)
-
+    # Tampilkan block assistant langsung sebelum memproses fungsi respon_ai
     with st.chat_message("assistant"):
+        # TAMBAHKAN INI: Spinner berjalan saat fungsi respon_ai sedang berpikir/mengambil data
+        with st.spinner("AI sedang memikirkan jawaban..."):
+            jawaban_full = respon_ai(prompt)
+        
+        # Sisa logika efek teks mengetik milikmu tetap dipertahankan setelah spinner selesai
         placeholder = st.empty()
         full_response = ""
         for word in jawaban_full.split():

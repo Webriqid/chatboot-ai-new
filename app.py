@@ -87,8 +87,13 @@ st.markdown("""
 
 st.write("##")
 
-# 6. PILIHAN MENU
-col1, col2, col3 = st.columns(3)
+# =========================================================================
+# 6. PILIHAN MENU (UPGRADED: BIAR COLS PAS DI TENGAH DAN SIMETRIS)
+# =========================================================================
+# Kita buat 4 kolom, kolom 1 dan 4 kosong sebagai penyeimbang kanan-kiri
+gap_kiri, col1, col2, gap_kanan = st.columns([0.5, 2, 2, 0.5])
+
+# Kolom kosong kiri tidak diisi apa-apa
 
 with col1:
     st.markdown('<div class="option-card"><h3>💬 Ruang Chat</h3><p>Diskusi interaktif dengan AI tentang materi kuliah.</p></div>', unsafe_allow_html=True)
@@ -98,9 +103,6 @@ with col1:
 with col2:
     st.markdown('<div class="option-card"><h3>📝 Latihan AI</h3><p>Uji pemahamanmu dengan kuis mingguan yang menantang.</p></div>', unsafe_allow_html=True)
     if st.button("Mulai Latihan", use_container_width=True, key="btn_quiz"):
-        st.switch_page("pages/Latihan.py") 
+        st.switch_page("pages/Latihan.py")
 
-with col3:
-    st.markdown('<div class="option-card"><h3>📖 Materi AI</h3><p>Lihat ringkasan materi dan glosarium istilah AI.</p></div>', unsafe_allow_html=True)
-    if st.button("Lihat Materi", use_container_width=True, key="btn_materi"):
-        st.switch_page("pages/Materi.py")
+# Kolom kosong kanan tidak diisi apa-apa
